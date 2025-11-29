@@ -1,0 +1,11 @@
+{
+  "navbar.dashboard": "Dashboard",
+  "navbar.rooms": "Rooms",
+  "navbar.statistics": "Statistics",
+  "navbar.calendar": "Calendar",
+  "navbar.registration": "Registration",
+  "navbar.login": "Login",
+  "navbar.user": "User",
+  "navbar.logging-out": "Logging out...",
+  "navbar.log-out": "Logout"
+}

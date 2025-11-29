@@ -1,0 +1,9 @@
+{
+  "containers.layout.header.appbar.navlink.rooms": "Metriky",
+  "errors.unspecified": "Nespecifikovaná chyba",
+  "pages.homepage.title": "Aktuální stav operačních sálů",
+  "pages.not_found.home_button": "Domů",
+  "pages.not_found.title": "Stránka nenalezena!",
+  "pages.room.player_panel.missing_data": "Žádná data",
+  "processing_backdrop_message.loading_data": "Načítání dat..."
+}

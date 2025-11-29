@@ -1,0 +1,11 @@
+{
+  "navbar.dashboard": "Dashboard",
+  "navbar.rooms": "Operační sály",
+  "navbar.statistics": "Statistiky",
+  "navbar.calendar": "Kalendář",
+  "navbar.registration": "Registrovat",
+  "navbar.login": "Přihlásit",
+  "navbar.user": "Uživatel",
+  "navbar.logging-out": "Odhlašování",
+  "navbar.log-out": "Odhlásit"
+}

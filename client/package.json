@@ -1,0 +1,46 @@
+{
+  "name": "surg_econ",
+  "version": "0.0.0",
+  "private": true,
+  "description": "SurgEcon",
+  "license": "MIT",
+  "source": "index.html",
+  "browserslist": ">1%, last 2 versions, not dead, not IE 11",
+  "scripts": {
+    "start": "npx http-server ./dist --cors -c-1 --utc --gzip --proxy http://127.0.0.1:4173?",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:ci": "env NODE_ENV=test jest --silent --watchAll=false --ci --coverage",
+    "extract": "formatjs extract \"src/**/*.tsx\" --out-file src/app/config/locales/extracted.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "compile": "formatjs compile \"src/app/config/locales/extracted.json\" --out-file src/app/config/locales/en.json",
+    "extract-compile": "formatjs extract \"src/**/*.tsx\" --out-file src/app/config/locales/extracted.json --flatten --id-interpolation-pattern '[sha512:contenthash:base64:6]' && formatjs compile \"src/app/config/locales/extracted.json\" --out-file src/app/config/locales/en.json"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@formatjs/cli": "^6.7.4",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/material": "^7.3.5",
+    "@nivo/bar": "^0.99.0",
+    "@nivo/line": "^0.99.0",
+    "@tanstack/query-devtools": "^5.91.1",
+    "@tanstack/react-query": "^5.90.11",
+    "@tanstack/react-query-devtools": "^5.91.1",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "axios": "^1.13.2",
+    "notistack": "^3.0.2",
+    "react": "^18.3.1",
+    "react-custom-scrollbars-2": "^4.5.0",
+    "react-dom": "^18.3.1",
+    "react-intl": "^7.1.14",
+    "react-router-dom": "^7.9.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
+  },
+  "alias": {
+    "process": false
+  }
+}
