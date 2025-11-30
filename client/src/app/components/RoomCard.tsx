@@ -62,7 +62,7 @@ const RoomCard: FC<IRoomCardProps> = (props) => {
             onClick={() => props.onClick(props.id)}
             sx={{
                 m: 1,
-                height: 195,
+                height: 175,
                 width: 160,
                 cursor: "pointer",
                 transition: 'transform 0.3s ease-in-out, z-index 0.3s',
@@ -124,7 +124,7 @@ const RoomCard: FC<IRoomCardProps> = (props) => {
             />
             <CardContent>
                 <Typography
-                    variant="h2"
+                    variant="h1"
                     textAlign="center"
                     sx={{
                         p: 0,

@@ -1,98 +1,90 @@
+// Home.tsx
 import React, { FC } from 'react'
 import {
-    Button,
     Paper,
     Grid,
-    Typography
+    Typography,
+    Box
 } from "@mui/material"
 import { useNavigate } from 'react-router-dom'
-import { useTheme as useMuiTheme } from "@mui/material/styles"
 import { useIntl } from "react-intl"
-import { useQuery } from '@tanstack/react-query'
-import { AxiosError } from 'axios'
-import Loading from '../../base/components/Loading'
-import backendServices from "../../base/utils/Axios/ApiClient";
-import {IOperation, IRoomRow} from "../../base/utils/Axios/types";
-import RoomCard from "../components/RoomCard";
+import RoomCard from "../components/RoomCard"
 import { default as rooms } from "../components/mocks/rooms.json"
 
-
-const HomePage: FC<{}> = () => {
+const HomePage: FC = () => {
     const navigate = useNavigate()
-    const theme = useMuiTheme()
     const intl = useIntl()
 
     const randomBool = (): boolean => {
-        return Math.random() < 0.4;
+        return Math.random() < 0.4
     }
 
     return (
-        <Paper
-            elevation={0}
-            style={{
-                display: 'flex',
-                flexDirection: "row",
-                overflow: 'hidden',
-                minHeight: 310
-            }}
+        <Box
             sx={{
-                px: 5,
-                py: 2,
-                m: 1,
-                width: "100%",
-                height: "100%",
-                backgroundColor: "background.default",
-                borderRadius: 5
+                width: '100%',
+                height: '100%',
+                overflow: 'auto',
+                px: { xs: 2, sm: 3, md: 5 },
+                pb: 2
             }}
         >
-            <Grid
-                data-testid="pages.homepage.container"
-                container
-                direction="column"
-                spacing={1}
-                justifyContent="center"
-                alignItems="center"
+            <Paper
+                elevation={0}
                 sx={{
-                    display: 'flex',
-                    overflow: "auto"
+                    backgroundColor: "background.default",
+                    borderRadius: 5,
+                    p: 3,
+                    height: '100%'
                 }}
             >
                 <Grid
-                    data-testid="pages.homepage.title"
-                    item
-                    style={{
-                        display: "flex",
-                        justifyContent: "center"
-                    }}
-                >
-                    <Typography
-                        variant="h6"
-                        color="text.primary"
-                    >
-                        {intl.formatMessage({ id: "pages.homepage.title", defaultMessage: "Welcome!" })}
-                    </Typography>
-                </Grid>
-                <Grid
-                    data-testid="pages.homepage.about"
                     container
-                    justifyContent="center"
+                    direction="column"
+                    spacing={3}
                 >
-                    {rooms.map(r => {
-                        return (
-                            <RoomCard
-                                id={r.id}
-                                identifier={r.room.identifier}
-                                status={randomBool() ? "available" : randomBool() ? "finishing" : "in_use"}
-                                onClick={(id: string) => navigate(`rooms/${id}`)}
-                                key={r.id}
-                                nextOperation={[...r.operations].sort((a, b) =>
-                                    new Date(b.op_plan_start).getTime() - new Date(a.op_plan_start).getTime()
-                                )[0]}
-                            />
-                    )})}
+                    <Grid item>
+                        <Typography
+                            variant="h6"
+                            color="text.primary"
+                            align="center"
+                            gutterBottom
+                        >
+                            {intl.formatMessage({ id: "pages.homepage.title", defaultMessage: "Welcome!" })}
+                        </Typography>
+                    </Grid>
+
+                    <Grid item>
+                        <Grid
+                            container
+                            spacing={2}
+                            justifyContent="center"
+                        >
+                            {rooms.map(r => (
+                                <Grid
+                                    item
+                                    key={r.id}
+                                    xs={12}
+                                    sm={3}
+                                    md={2}
+                                    lg={2}
+                                >
+                                    <RoomCard
+                                        id={r.id}
+                                        identifier={r.room.identifier}
+                                        status={randomBool() ? "available" : randomBool() ? "finishing" : "in_use"}
+                                        onClick={(id: string) => navigate(`rooms/${id}`)}
+                                        nextOperation={[...r.operations].sort((a, b) =>
+                                            new Date(b.op_plan_start).getTime() - new Date(a.op_plan_start).getTime()
+                                        )[0]}
+                                    />
+                                </Grid>
+                            ))}
+                        </Grid>
+                    </Grid>
                 </Grid>
-            </Grid>
-        </Paper>
+            </Paper>
+        </Box>
     )
 }
 

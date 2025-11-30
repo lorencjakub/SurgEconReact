@@ -49,48 +49,6 @@ const Page: FC<{}> = () => {
                 <Grid item>
                     <PageHeader
                         pageTitle="SurgEcon"
-                        appBarContent={
-                            <React.Fragment>
-                                <Select
-                                    value={locale}
-                                    onChange={(e) => setLocale && setLocale(e.target.value)}
-                                    name="language_select"
-                                    data-testid="containers.layout.header.appbar.language_select"
-                                >
-                                    {locales.map((value: string) => {
-                                        return (
-                                            <MenuItem
-                                                value={value}
-                                                key={`language_option_${value}`}
-                                            >
-                                                <Box
-                                                    data-testid="containers.layout.header.appbar.flag"
-                                                    component="img"
-                                                    src={getLocaleFlagUrl && getLocaleFlagUrl(value) || ""}
-                                                    aria-label="logo"
-                                                    sx={{
-                                                        height: 24,
-                                                        width: 24,
-                                                        position: "relative",
-                                                        top: 3
-                                                    }}
-                                                />
-                                            </MenuItem>
-                                        )
-                                    })}
-                                </Select>
-                                <Switch
-                                    data-testid="containers.layout.header.appbar.theme_mode_switcher"
-                                    checked={(themeMode === "dark")}
-                                    onClick={ () => {toggleThemeMode && toggleThemeMode()} }
-                                    checkedIcon={<DarkIcon sx={{ bottom: 5, color: theme.palette.text.primary }} />}
-                                    icon={<LightIcon sx={{ bottom: 5, color: theme.palette.text.primary }} />}
-                                    sx={{
-                                        height: 42
-                                    }}
-                                />
-                            </React.Fragment>
-                        }
                     />
                 </Grid>
 
@@ -102,7 +60,7 @@ const Page: FC<{}> = () => {
                     sx={{
                         overflow: 'auto',
                         height: 'calc(100vh - 146px)', // 100vh - (header + footer)
-                        mt: '82px',
+                        mt: '0px',
                         mb: '64px'
                     }}
                 >

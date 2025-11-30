@@ -2,142 +2,233 @@ import React, { FC } from 'react'
 import {
     Paper,
     Grid,
-    Box, MenuItem, Select
+    Box,
+    MenuItem,
+    Select,
+    FormControl,
+    InputLabel,
+    Typography,
+    Checkbox,
+    FormGroup,
+    FormControlLabel
 } from "@mui/material"
-import { useQuery } from '@tanstack/react-query'
-import { AxiosError } from 'axios'
-import backendServices from "../../base/utils/Axios/ApiClient"
-import { IRoomRow } from "../../base/utils/Axios/types"
 import PieChart from "../components/Charts/PieChart"
 import BarChart from "../components/Charts/BarChart"
 import LineChart from "../components/Charts/LineChart"
 
+import { default as rooms } from "../components/mocks/rooms.json"
 import { default as operations } from "../components/mocks/operations.json"
-import { default as operations_devices } from "../components/mocks/operations_devices.json"
-import { default as operations_employes } from "../components/mocks/operations_employes.json"
-import { default as operations_tools } from "../components/mocks/operations_tools.json"
-import { default as operations_materials } from "../components/mocks/operations_materials.json"
-import { default as room } from "../components/mocks/room.json"
-import { default as room2 } from "../components/mocks/room2.json"
+import { default as tools } from "../components/mocks/operations_tools.json"
+import { default as materials } from "../components/mocks/operations_materials.json"
+import { default as employes } from "../components/mocks/operations_employes.json"
+import { default as devices } from "../components/mocks/operations_devices.json"
+import {IRoom, IRoomRow} from "../../base/utils/Axios/types";
 
+const CHART_HEIGHT = 400
 
+const CHART_TYPES = [
+    { value: "pie", label: "Koláčový graf" },
+    { value: "line", label: "Čárový graf" },
+    { value: "bar", label: "Sloupcový graf" }
+]
 
+const DATASETS = [
+    { value: "rooms", label: "Místnosti" },
+    { value: "operations", label: "Operace" },
+    { value: "employes", label: "Zaměstnanci" },
+    { value: "materials", label: "Materiály" },
+    { value: "tools", label: "Nástroje" },
+    { value: "devices", label: "Zařízení" }
+]
 
-const CHART_HEIGHT = 400 // Fixní výška pro každý graf
+const EXCLUDED_FIELDS = ['id', 'identifier', 'udi_code']
 
 const Metrics: FC = () => {
-    // const allRoomsQuery = useQuery<IRoomRow[], AxiosError>({
-    //     queryKey: ["all-rooms-query"],
-    //     queryFn: backendServices.getAllRooms,
-    //     enabled: true,
-    //     initialData: [],
-    //     placeholderData: []
-    // })
+    const [selectedChart, setSelectedChart] = React.useState<string>("")
+    const [selectedDataset, setSelectedDataset] = React.useState<string>("")
+    const [selectedFields, setSelectedFields] = React.useState<string[]>([])
 
-    const [chart, setChart] = React.useState<string>("")
-    const [dataset, setDataset] = React.useState<string>("")
+    const renderChart = () => {
+        if (!selectedChart) return null
 
-    const getData = () => {
-        if (chart == "pie"){
-            if (dataset == "operations") {
-                return operations
-            }
+        switch (selectedChart) {
+            case "pie":
+                return <PieChart data={[]} />
+            case "line":
+                return <LineChart data={{ id: "", data: [] }} />
+            case "bar":
+                return <BarChart data={[]} />
+            default:
+                return null
         }
+    }
+
+    const getDataset = () => {
+        switch (selectedDataset) {
+            case "rooms":
+                return rooms
+            case "operations":
+                return operations
+            case "employes":
+                return employes
+            case "materials":
+                return materials
+            case "tools":
+                return tools
+            case "devices":
+                return devices
+            default:
+                return []
+        }
+    }
+
+    // const preparePieChartData = () => {
+    //     dataset: any[] = getDataset()
+    //
+    //     if () dataset.map(d => ({
+    //         id: d.id,
+    //         label: d.room.identifier,
+    //         value: d.operations.length
+    //     }))
+    //
+    //
+    //
+    // }
+
+    // Získání dostupných polí z datasetu
+    const getAvailableFields = () => {
+        const dataset = getDataset()
+        if (dataset.length === 0) return []
+
+        const fields = Object.keys(dataset[0])
+        return fields.filter(field => !EXCLUDED_FIELDS.includes(field))
+    }
+
+    const handleFieldChange = (field: string) => {
+        setSelectedFields(prev => {
+            if (prev.includes(field)) {
+                return prev.filter(f => f !== field)
+            } else {
+                return [...prev, field]
+            }
+        })
+    }
+
+    // Render filtrů
+    const renderFilters = () => {
+        const fields = getAvailableFields()
+
+        return (
+            <Box sx={{
+                mt: 2,
+                p: 2,
+                bgcolor: 'background.paper',
+                borderRadius: 1,
+                border: 1,
+                borderColor: 'divider'
+            }}>
+                <Typography variant="subtitle1" gutterBottom>
+                    Vyberte pole pro zobrazení:
+                </Typography>
+                <FormGroup>
+                    {fields.map(field => (
+                        <FormControlLabel
+                            key={field}
+                            control={
+                                <Checkbox
+                                    checked={selectedFields.includes(field)}
+                                    onChange={() => handleFieldChange(field)}
+                                />
+                            }
+                            label={field}
+                        />
+                    ))}
+                </FormGroup>
+            </Box>
+        )
     }
 
     return (
         <Paper
             elevation={0}
             sx={{
-                p: 2,
+                p: 3,
                 width: '100%',
                 backgroundColor: 'background.default',
                 borderRadius: 5
             }}
         >
-            <Select
-                value={chart}
-                label="Typ grafu"
-                onChange={(e) => setChart(e.target.value)}
-                name="chart_select"
-                data-testid="containers.layout.header.appbar.language_select"
-            >
-                {["pie", "line", "bar"].map((value: string) => {
-                    return (
-                        <MenuItem
-                            value={value}
-                            key={`language_option_${value}`}
-                        >
-                            {value}
-                        </MenuItem>
-                    )
-                })}
-            </Select>
-
-            {chart != "" && <Select
-                value={dataset}
-                label="Data"
-                onChange={(e) => setDataset(e.target.value)}
-                name="data_select"
-                data-testid="containers.layout.header.appbar.language_select"
-            >
-                {["rooms", "operations"].map((value: string) => {
-                    return (
-                        <MenuItem
-                            value={value}
-                            key={`language_option_${value}`}
-                        >
-                            {value}
-                        </MenuItem>
-                    )
-                })}
-            </Select>}
-
-            {chart != "" && <Select
-                value={dataset}
-                label="Data"
-                onChange={(e) => setDataset(e.target.value)}
-                name="data_select"
-                data-testid="containers.layout.header.appbar.language_select"
-            >
-                {["rooms", "operations"].map((value: string) => {
-                    return (
-                        <MenuItem
-                            value={value}
-                            key={`language_option_${value}`}
-                        >
-                            {value}
-                        </MenuItem>
-                    )
-                })}
-            </Select>}
-
-            <Grid
-                container
-                direction="column"
-                spacing={3}
-                data-testid="pages.metrics.container"
-            >
-                {chart == "pie" && <Grid item>
-                    <Box sx={{ height: CHART_HEIGHT, width: '100%' }}>
-                        <PieChart data={{}} />
-                    </Box>
+            <Grid container spacing={3}>
+                <Grid item xs={12}>
+                    <Typography variant="h5" gutterBottom>
+                        Metriky
+                    </Typography>
                 </Grid>
-                }
 
-                {chart == "line" && <Grid item>
-                    <Box sx={{ height: CHART_HEIGHT, width: '100%' }}>
-                        <LineChart data={{}} />
-                    </Box>
+                <Grid item xs={12} md={6}>
+                    <FormControl fullWidth>
+                        <InputLabel>Typ grafu</InputLabel>
+                        <Select
+                            value={selectedChart}
+                            label="Typ grafu"
+                            onChange={(e) => {
+                                setSelectedChart(e.target.value)
+                                setSelectedDataset("")
+                                setSelectedFields([])
+                            }}
+                        >
+                            {CHART_TYPES.map(({value, label}) => (
+                                <MenuItem value={value} key={`chart_type_${value}`}>
+                                    {label}
+                                </MenuItem>
+                            ))}
+                        </Select>
+                    </FormControl>
                 </Grid>
-                }
 
-                {chart == "bar" && <Grid item>
-                    <Box sx={{ height: CHART_HEIGHT, width: '100%' }}>
-                        <BarChart data={{}} />
-                    </Box>
-                </Grid>
-                }
+                {selectedChart && (
+                    <Grid item xs={12} md={6}>
+                        <FormControl fullWidth>
+                            <InputLabel>Dataset</InputLabel>
+                            <Select
+                                value={selectedDataset}
+                                label="Dataset"
+                                onChange={(e) => {
+                                    setSelectedDataset(e.target.value)
+                                    setSelectedFields([])
+                                }}
+                            >
+                                {DATASETS.map(({value, label}) => (
+                                    <MenuItem value={value} key={`dataset_${value}`}>
+                                        {label}
+                                    </MenuItem>
+                                ))}
+                            </Select>
+                        </FormControl>
+                    </Grid>
+                )}
+
+                {selectedDataset && (
+                    <Grid item xs={12}>
+                        {renderFilters()}
+                    </Grid>
+                )}
+
+                {selectedChart && selectedDataset && selectedFields.length > 0 && (
+                    <Grid item xs={12}>
+                        <Box
+                            sx={{
+                                height: CHART_HEIGHT,
+                                width: '100%',
+                                bgcolor: 'background.paper',
+                                p: 2,
+                                borderRadius: 1
+                            }}
+                        >
+                            {renderChart()}
+                        </Box>
+                    </Grid>
+                )}
             </Grid>
         </Paper>
     )

@@ -33,24 +33,7 @@ const PageHeader: FC<{ pageTitle: string, appBarContent?: ReactNode }> = ({ page
                     data-testid="containers.layout.header.appbar"
                 >
                     <Grid item xs={1}>
-                        <Box
-                            data-testid="containers.layout.header.appbar.logo"
-                            component="img"
-                            src="/ant-icon.svg"
-                            aria-label="logo"
-                            sx={{
-                                ml: 2,
-                                mt: 0.5,
-                                height: 42,
-                                width: 42
-                            }}
-                            style={{
-                                cursor: "pointer",
-                                filter: (themeMode !== "dark") ? undefined :
-                                    "invert(46%) sepia(47%) saturate(3150%) hue-rotate(338deg) brightness(101%) contrast(110%)"
-                            }}
-                            onClick={() => navigate("/")}
-                        />
+
                     </Grid>
                     <Grid
                         item
@@ -83,7 +66,7 @@ const PageHeader: FC<{ pageTitle: string, appBarContent?: ReactNode }> = ({ page
                                 }}
                                 data-testid="containers.layout.header.metrics-button"
                             >
-                                Metrics
+                                Metriky
                             </Button>
                         </Grid>
                     </Grid>

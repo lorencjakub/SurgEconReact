@@ -76,20 +76,17 @@ const OperationDetail: FC = () => {
         {
             "id": "Personál",
             "label": "Personál",
-            "value": durationInHours * totalEmployeesPayments,
-            "color": "hsl(138, 70%, 50%)"
+            "value": durationInHours * totalEmployeesPayments
         },
         {
             "id": "Materiál",
             "label": "Materiál",
-            "value": totalMaterialPrice,
-            "color": "hsl(141, 70%, 50%)"
+            "value": totalMaterialPrice
         },
         {
             "id": "Nástroje",
             "label": "Nástroje",
-            "value": totalToolsPrice,
-            "color": "hsl(269, 70%, 50%)"
+            "value": totalToolsPrice
         }
     ]
 
