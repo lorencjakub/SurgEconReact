@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Operační stůl (Elektrický) - Maquet",
+        "category": "Operační stoly",
+        "identifier": "A-OS-10001",
+        "lifetime": 45000,
+        "udi_code": "(01)08591234567891(11)241201(17)291130(21)AOS10001",
+        "id": "7e2e0986-6817-4b56-8e4d-a5dd8185b2cf"
+    },
+    {
+        "name": "Anesteziologický přístroj (High-End)",
+        "category": "ARO vybavení",
+        "identifier": "A-OS-10002",
+        "lifetime": 35000,
+        "udi_code": "(01)08591234567892(11)230515(17)280514(21)AOS10002",
+        "id": "468bd5b4-2490-426c-9ec6-9e2125bcd55b"
+    },
+    {
+        "name": "Mobilní RTG C-Rameno (digitální)",
+        "category": "Zobrazování",
+        "identifier": "A-OS-10003",
+        "lifetime": 28000,
+        "udi_code": "(01)08591234567893(11)240110(17)271231(21)AOS10003",
+        "id": "f271f3fb-7a04-4d05-b83c-6d19c61cdf20"
+    },
+    {
+        "name": "Centrální monitorovací stanice",
+        "category": "Monitorování",
+        "identifier": "A-OS-10004",
+        "lifetime": 55000,
+        "udi_code": "(01)08591234567894(11)230920(17)300919(21)AOS10004",
+        "id": "19f7ba7e-22b0-4cb4-a484-c21b1ed302d1"
+    },
+    {
+        "name": "Stropní operační lampa (hlavní)",
+        "category": "Osvětlení",
+        "identifier": "A-OS-10005",
+        "lifetime": 60000,
+        "udi_code": "(01)08591234567895(11)221101(17)321031(21)AOS10005",
+        "id": "ee359a42-4601-424e-b295-dcd06827ffc8"
+    },
+    {
+        "name": "Ventilátor (transportní)",
+        "category": "ARO vybavení",
+        "identifier": "A-OS-10006",
+        "lifetime": 20000,
+        "udi_code": "(01)08591234567896(11)250218(17)280217(21)AOS10006",
+        "id": "2795c8e1-ba49-4484-b1da-274341f02179"
+    },
+    {
+        "name": "Elektrokoagulátor (bipolární/monopolární)",
+        "category": "Diatermie",
+        "identifier": "A-OS-10007",
+        "lifetime": 40000,
+        "udi_code": "(01)08591234567897(11)240725(17)310724(21)AOS10007",
+        "id": "5a1a167f-c4dc-4c0b-8e0a-db3c5eb3e2ba"
+    },
+    {
+        "name": "Chirurgická odsávačka (vysoký výkon)",
+        "category": "Odsávání",
+        "identifier": "A-OS-10008",
+        "lifetime": 48000,
+        "udi_code": "(01)08591234567898(11)230301(17)300228(21)AOS10008",
+        "id": "1e467eef-2b2b-45f8-8786-91cf4c3c4ea3"
+    },
+    {
+        "name": "Laparoskopická věž (Full HD)",
+        "category": "Endoskopie/Laparoskopie",
+        "identifier": "A-OS-10009",
+        "lifetime": 25000,
+        "udi_code": "(01)08591234567899(11)241010(17)291009(21)AOS10009",
+        "id": "bd9ce735-810d-411e-b212-358802bcb1c5"
+    },
+    {
+        "name": "Endoskopická kamera a zdroj světla",
+        "category": "Endoskopie/Laparoskopie",
+        "identifier": "A-OS-10010",
+        "lifetime": 22000,
+        "udi_code": "(01)08591234567900(11)241105(17)281104(21)AOS10010",
+        "id": "b9555c46-ce8a-422e-8984-1b5395b49e52"
+    }
+]

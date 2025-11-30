@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Chirurgický držák jehel (Standard)",
+        "category": "Všeobecná Chirurgie",
+        "identifier": "R-CH-0001",
+        "unit_price": 15.5,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129090747",
+        "id": "c7b8a46f-88d2-4874-9b06-036c324f9111"
+    },
+    {
+        "name": "Skalpelová rukojeť č. 3",
+        "category": "Všeobecná Chirurgie",
+        "identifier": "R-CH-0002",
+        "unit_price": 12,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129090847",
+        "id": "4033dc2f-796c-420d-95b1-3abe4b1393b3"
+    },
+    {
+        "name": "Péán (svorka) rovný 16 cm",
+        "category": "Všeobecná Chirurgie",
+        "identifier": "R-CH-0003",
+        "unit_price": 14.8,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129090947",
+        "id": "fb8c8249-f588-4535-867c-f9070f7befb3"
+    },
+    {
+        "name": "Pinzeta anatomická 14 cm",
+        "category": "Všeobecná Chirurgie",
+        "identifier": "R-CH-0004",
+        "unit_price": 11.2,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091047",
+        "id": "49579dd8-027e-4a5b-8a79-bdb605a686bd"
+    },
+    {
+        "name": "Nůžky Metzenbaum (zahnuté)",
+        "category": "Všeobecná Chirurgie",
+        "identifier": "R-CH-0005",
+        "unit_price": 18.5,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091147",
+        "id": "e7bee720-9ebc-496e-af5e-ebcdbbeee29a"
+    },
+    {
+        "name": "Háky na rány (dvouramenné)",
+        "category": "Všeobecná Chirurgie",
+        "identifier": "R-CH-0006",
+        "unit_price": 22,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091247",
+        "id": "7abaad15-2df5-4c19-bfc9-9afecdc9b5ea"
+    },
+    {
+        "name": "Kleště na kost (Luer)",
+        "category": "Ortopedie/Trauma",
+        "identifier": "R-OT-0007",
+        "unit_price": 28,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091347",
+        "id": "79777f01-5bb3-49ce-9bfe-00dabb6eeaeb"
+    },
+    {
+        "name": "Dlahovací fréza (ortopedická)",
+        "category": "Ortopedie/Trauma",
+        "identifier": "R-OT-0008",
+        "unit_price": 35,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091447",
+        "id": "01506d09-b675-414b-b080-6892c9d4cc24"
+    },
+    {
+        "name": "Sada pro otevřenou repozici (šroubovák)",
+        "category": "Ortopedie/Trauma",
+        "identifier": "R-OT-0009",
+        "unit_price": 45,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091547",
+        "id": "57508715-a6f5-4477-bfc8-4c5a29181261"
+    },
+    {
+        "name": "Ortopedická kostní lžíce",
+        "category": "Ortopedie/Trauma",
+        "identifier": "R-OT-0010",
+        "unit_price": 24.5,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129091647",
+        "id": "3cb3543a-5edc-4205-8c2e-a8e75406b2cd"
+    }
+]

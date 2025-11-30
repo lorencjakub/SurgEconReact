@@ -1,0 +1,290 @@
+[
+  {
+    "id": "dda7b9e4-8cb8-4845-8a92-ad1e06b67633",
+    "an_real_start": "2025-11-02T13:03:33",
+    "op_real_start": "2025-11-02T13:15:33",
+    "op_real_end": "2025-11-02T14:03:33",
+    "an_real_end": "2025-11-02T14:15:33",
+    "op_plan_start": "2025-11-02T13:00:00",
+    "op_plan_end": "2025-11-02T14:00:00",
+    "identifier": "4d6ee191d9874a99936e87d1054e1a19",
+    "price": 18500,
+    "room_id": "478ee940-a9e6-42e6-a0c2-1fdce6c6e603",
+    "materials": [
+      {
+        "name": "Skalpel titanový premium",
+        "category": "Instrumentárium",
+        "identifier": "#FMT",
+        "unit_price": 89,
+        "id": "e0f7d002-ba32-42c9-8109-6c6c3459343b"
+      },
+      {
+        "name": "Sterilní set jednorázový",
+        "category": "Ochranné pomůcky",
+        "identifier": "#FMT",
+        "unit_price": 245,
+        "id": "2744ea5d-17b6-4d87-9e0f-248eed9944a8"
+      },
+      {
+        "name": "Anesteziologický set premium",
+        "category": "ARO materiál",
+        "identifier": "#FMT",
+        "unit_price": 1850,
+        "id": "1ec71051-1fae-4679-8e9e-1a0f74b778b4"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Mikrochirurgické nůžky titanové",
+        "category": "Mikrochirurgie",
+        "identifier": "R-MC-0047",
+        "unit_price": 1250,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129095347",
+        "id": "85b419a5-34e3-428d-ad48-14b62d0ef1c6"
+      },
+      {
+        "name": "Laparoskopické kleště",
+        "category": "Laparoskopie",
+        "identifier": "R-LP-0048",
+        "unit_price": 2800,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129095447",
+        "id": "4f6f8dae-1a32-4c42-8905-1399d54c8c82"
+      }
+    ],
+    "employes": [
+      {
+        "name": "MUDr. Jan Novotný",
+        "job": "Chirurg specialista",
+        "payment": 185000,
+        "id": "7117182f-818e-472e-ae41-817c80811f06"
+      },
+      {
+        "name": "Mgr. Marie Svobodová",
+        "job": "Instrumentářka specialista",
+        "payment": 92000,
+        "id": "638f78b9-63f5-431f-83d8-bce59bf97075"
+      }
+    ]
+  },
+  {
+    "id": "dda7b9e4-8cb8-4845-8a92-ad1e06b67633",
+    "an_real_start": "2025-11-02T13:03:33",
+    "op_real_start": "2025-11-02T12:48:33",
+    "op_real_end": "2025-11-02T12:33:33",
+    "an_real_end": "2025-11-02T13:03:33",
+    "op_plan_start": "2025-11-02T12:03:33",
+    "op_plan_end": "2025-11-02T12:18:33",
+    "identifier": "4d6ee191d9874a99936e87d1054e1a19",
+    "price": 0,
+    "room_id": "478ee940-a9e6-42e6-a0c2-1fdce6c6e603",
+    "materials": [
+      {
+        "name": "Skalpel s čepelí č. 15",
+        "category": "Instrumentárium",
+        "identifier": "#FMT",
+        "unit_price": 22,
+        "id": "e0f7d002-ba32-42c9-8109-6c6c3459343b"
+      },
+      {
+        "name": "Návleky na obuv (pár)",
+        "category": "Ochranné pomůcky",
+        "identifier": "#FMT",
+        "unit_price": 6.5,
+        "id": "2744ea5d-17b6-4d87-9e0f-248eed9944a8"
+      },
+      {
+        "name": "Sada na epidurální anestezii",
+        "category": "ARO materiál",
+        "identifier": "#FMT",
+        "unit_price": 990,
+        "id": "1ec71051-1fae-4679-8e9e-1a0f74b778b4"
+      },
+      {
+        "name": "Hemostatická želatinová houba 8x8 cm",
+        "category": "Hemostyptika",
+        "identifier": "#FMT",
+        "unit_price": 650,
+        "id": "d5a76e76-6b61-41ff-a033-31799a5988da"
+      },
+      {
+        "name": "Neurochirurgické odsávací kanyly (jemné)",
+        "category": "Speciální pomůcky",
+        "identifier": "#FMT",
+        "unit_price": 410,
+        "id": "e85772ea-6215-4fee-8a04-67e08fe5fa0e"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Stěrka na sternum (kardiochirurgie)",
+        "category": "Kardiologie",
+        "identifier": "R-KA-0047",
+        "unit_price": 28,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129095347",
+        "id": "85b419a5-34e3-428d-ad48-14b62d0ef1c6"
+      },
+      {
+        "name": "Žilní svorka (velká)",
+        "category": "Kardiologie",
+        "identifier": "R-KA-0048",
+        "unit_price": 24,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129095447",
+        "id": "4f6f8dae-1a32-4c42-8905-1399d54c8c82"
+      },
+      {
+        "name": "Vaginální retraktor",
+        "category": "Gynekologie",
+        "identifier": "R-GY-0049",
+        "unit_price": 20.5,
+        "udi_code": "(01)08591712245824(10)PP001225(21)251129095547",
+        "id": "ccc9098b-15fc-4b08-b99a-1fc3b63d2a46"
+      }
+    ],
+    "devices": [
+      {
+        "name": "Sterilizační autokláv (malý, rychlý)",
+        "category": "Sterilizace",
+        "identifier": "A-OS-10035",
+        "lifetime": 15000,
+        "udi_code": "(01)08591234567925(11)250201(17)270131(21)AOS10035",
+        "id": "25e79a98-5ce0-4b09-bc21-0700bfe5da12"
+      },
+      {
+        "name": "Robota pro asistovanou chirurgii (základní modul)",
+        "category": "Robotická chirurgie",
+        "identifier": "A-OS-10036",
+        "lifetime": 20000,
+        "udi_code": "(01)08591234567926(11)241210(17)281209(21)AOS10036",
+        "id": "a3cc45e8-7df9-41c4-8bc2-a1c81b0b35ba"
+      }
+    ],
+    "employes": [
+      {
+        "name": "Mgr. Petr Dvořák",
+        "job": "Vrchní sestra OS",
+        "payment": 102970,
+        "id": "7117182f-818e-472e-ae41-817c80811f06"
+      },
+      {
+        "name": "MUDr. Hana Benešová",
+        "job": "Lékař JIP ARO",
+        "payment": 147630,
+        "id": "638f78b9-63f5-431f-83d8-bce59bf97075"
+      },
+      {
+        "name": "Bc. Tomáš Kříž",
+        "job": "Anesteziologická sestra - specialista",
+        "payment": 83500,
+        "id": "a765688d-e9a1-40f7-8f64-fba9f4be1609"
+      }
+    ]
+  },
+  {
+    "id": "eae3eb15-9c04-4dd0-9cd8-cf0fd8dbc99e",
+    "an_real_start": "2025-11-10T21:16:25",
+    "op_real_start": "2025-11-10T21:31:25",
+    "op_real_end": "2025-11-10T21:46:25",
+    "an_real_end": "2025-11-10T21:16:25",
+    "op_plan_start": "2025-11-10T20:16:25",
+    "op_plan_end": "2025-11-10T21:01:25",
+    "identifier": "d63eb9ec5f59494fba7e485f295062d7",
+    "price": 0,
+    "room_id": "7bb99797-081c-461f-948c-ba190063355f"
+  },
+  {
+    "id": "727f0456-64f6-4880-8b22-a5df755e9b2a",
+    "an_real_start": "2025-11-06T17:39:06",
+    "op_real_start": "2025-11-06T17:39:06",
+    "op_real_end": "2025-11-06T17:24:06",
+    "an_real_end": "2025-11-06T17:09:06",
+    "op_plan_start": "2025-11-06T16:54:06",
+    "op_plan_end": "2025-11-06T17:09:06",
+    "identifier": "fedec5a35e4345a4a51dc3efe0eb5871",
+    "price": 0,
+    "room_id": "478ee940-a9e6-42e6-a0c2-1fdce6c6e603"
+  },
+  {
+    "id": "6f28a09f-2453-49fb-8b44-89d855dd52ca",
+    "an_real_start": "2025-11-12T13:27:30",
+    "op_real_start": "2025-11-12T13:27:30",
+    "op_real_end": "2025-11-12T13:27:30",
+    "an_real_end": "2025-11-12T13:27:30",
+    "op_plan_start": "2025-11-12T12:27:30",
+    "op_plan_end": "2025-11-12T12:57:30",
+    "identifier": "c3010227c9d8462980b55fd9f3c8b8a7",
+    "price": 0,
+    "room_id": "36216266-ccdb-4787-a426-e00815378a39"
+  },
+  {
+    "id": "17ab2741-eb1f-4305-8bcc-2a0f0093b4bc",
+    "an_real_start": "2025-11-13T19:25:43",
+    "op_real_start": "2025-11-13T19:10:43",
+    "op_real_end": "2025-11-13T19:10:43",
+    "an_real_end": "2025-11-13T19:25:43",
+    "op_plan_start": "2025-11-13T18:40:43",
+    "op_plan_end": "2025-11-13T18:55:43",
+    "identifier": "879f1c9498244692aacf1741e40292a2",
+    "price": 0,
+    "room_id": "84b02f4c-b627-47bc-8123-5376d8243107"
+  },
+  {
+    "id": "1483b491-b95e-4319-bc55-9ef8862d2b11",
+    "an_real_start": "2025-11-01T22:53:56",
+    "op_real_start": "2025-11-01T23:23:56",
+    "op_real_end": "2025-11-01T23:23:56",
+    "an_real_end": "2025-11-01T23:08:56",
+    "op_plan_start": "2025-11-01T22:38:56",
+    "op_plan_end": "2025-11-01T22:53:56",
+    "identifier": "7ee5aac5b9284dc9831e6bf073efe8bd",
+    "price": 0,
+    "room_id": "5c33f895-e187-4615-9d1e-adde52ccc38b"
+  },
+  {
+    "id": "463bcdb3-a609-4a28-9635-0d47c0e6b3d1",
+    "an_real_start": "2025-11-12T11:34:50",
+    "op_real_start": "2025-11-12T12:19:50",
+    "op_real_end": "2025-11-12T11:49:50",
+    "an_real_end": "2025-11-12T12:19:50",
+    "op_plan_start": "2025-11-12T11:04:50",
+    "op_plan_end": "2025-11-12T11:19:50",
+    "identifier": "499f7ba800d643ffb4d27af7eb306ccc",
+    "price": 0,
+    "room_id": "36216266-ccdb-4787-a426-e00815378a39"
+  },
+  {
+    "id": "5f64ec63-8c60-4b53-9e6c-92cbd1e187d3",
+    "an_real_start": "2025-11-28T15:30:00",
+    "op_real_start": "2025-11-28T15:45:00",
+    "op_real_end": "2025-11-28T16:15:00",
+    "an_real_end": "2025-11-28T16:30:00",
+    "op_plan_start": "2025-11-28T15:30:00",
+    "op_plan_end": "2025-11-28T16:25:00",
+    "identifier": "testovací operace",
+    "price": 0,
+    "room_id": "6526b6b0-7f39-4c3f-90b9-ad84f877c333"
+  },
+  {
+    "id": "8f0d27be-f909-432f-adf8-9f38ad4a7136",
+    "an_real_start": "2025-11-14T10:16:16",
+    "op_real_start": "2025-11-14T10:01:16",
+    "op_real_end": "2025-11-14T10:31:16",
+    "an_real_end": "2025-11-14T10:01:16",
+    "op_plan_start": "2025-11-14T09:16:16",
+    "op_plan_end": "2025-11-14T09:31:16",
+    "identifier": "5d5ae0447afb4223b2792e9234d356e7",
+    "price": 0,
+    "room_id": "36216266-ccdb-4787-a426-e00815378a39"
+  },
+  {
+    "id": "44e39f48-2245-4015-8e96-f99b027893e8",
+    "an_real_start": "2025-11-06T12:59:41",
+    "op_real_start": "2025-11-06T12:44:41",
+    "op_real_end": "2025-11-06T12:59:41",
+    "an_real_end": "2025-11-06T13:29:41",
+    "op_plan_start": "2025-11-06T12:29:41",
+    "op_plan_end": "2025-11-06T13:29:41",
+    "identifier": "f1e1ca8f1fbf4250ab604a3f6b0c0c80",
+    "price": 0,
+    "room_id": "6526b6b0-7f39-4c3f-90b9-ad84f877c333"
+  }
+]

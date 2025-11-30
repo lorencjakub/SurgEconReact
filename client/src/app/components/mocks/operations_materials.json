@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Sterilní chirurgický plášť XL",
+        "category": "Ochranné pomůcky",
+        "identifier": "#FMT",
+        "unit_price": 320,
+        "id": "3b0aade4-3734-4890-b909-674b49677537"
+    },
+    {
+        "name": "Laparoskopický trokar 12 mm",
+        "category": "Laparoskopie",
+        "identifier": "#FMT",
+        "unit_price": 1950,
+        "id": "8871d06b-d810-41ea-adce-0a2229ee952e"
+    },
+    {
+        "name": "Vstřebatelný šicí materiál PDS II 3/0",
+        "category": "Šicí materiály",
+        "identifier": "#FMT",
+        "unit_price": 580,
+        "id": "aba3fbe1-b30a-4d87-b344-fca0e342afa3"
+    },
+    {
+        "name": "Odsávací cévka Yankauer s kontrolou",
+        "category": "Odsávací systémy",
+        "identifier": "#FMT",
+        "unit_price": 125,
+        "id": "986c1ef8-ffc6-48ec-b659-2c2acca4d04e"
+    },
+    {
+        "name": "Endotracheální kanyla s manžetou č. 7.0",
+        "category": "ARO materiál",
+        "identifier": "#FMT",
+        "unit_price": 160,
+        "id": "9daa80ca-ecf9-4a5c-ab9c-abf671909ed7"
+    },
+    {
+        "name": "Koagulační tužka (elektroda)",
+        "category": "Diatermie",
+        "identifier": "#FMT",
+        "unit_price": 210,
+        "id": "f5c98fb3-70c9-446d-b799-5f4d0b1f592c"
+    },
+    {
+        "name": "Gázové břišní roušky s RTG nití (5 ks)",
+        "category": "Tampony a gáza",
+        "identifier": "#FMT",
+        "unit_price": 280,
+        "id": "5e9ca2b2-f67e-4899-915b-2ee2f6c93ecd"
+    },
+    {
+        "name": "Foley katetr silikonový Ch16",
+        "category": "Drény a katetry",
+        "identifier": "#FMT",
+        "unit_price": 195,
+        "id": "d883bf98-4d3d-40cf-a0a4-1468349fcc4e"
+    },
+    {
+        "name": "Chirurgické rukavice (Pár 8.5)",
+        "category": "Ochranné pomůcky",
+        "identifier": "#FMT",
+        "unit_price": 45,
+        "id": "d8cf63f6-0cb1-49e3-9096-8909daccbdb4"
+    },
+    {
+        "name": "Sterilní rouškovací set Standard",
+        "category": "Rouškování",
+        "identifier": "#FMT",
+        "unit_price": 1200,
+        "id": "ca44ef8c-d70c-428c-9846-a697f3cd8484"
+    }
+]

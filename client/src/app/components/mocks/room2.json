@@ -1,0 +1,119 @@
+{
+    "id": "6526b6b0-7f39-4c3f-90b9-ad84f877c333",
+    "room": {
+        "identifier": "ORT1"
+    },
+    "operations": [
+        {
+            "id": "c2f9aed3-d8ff-48da-b98a-fd56a75bb3cf",
+            "price": 56561,
+            "identifier": "4d91db8e177d4c56a560f5c735de6317",
+            "an_real_end": "2025-11-01T09:09:23",
+            "op_plan_end": "2025-11-01T08:54:23",
+            "op_real_end": "2025-11-01T09:24:23",
+            "an_real_start": "2025-11-01T09:24:23",
+            "op_plan_start": "2025-11-01T08:24:23",
+            "op_real_start": "2025-11-01T08:39:23"
+        },
+        {
+            "id": "f2204457-3505-486d-b62c-a49a08040cd1",
+            "price": 46462,
+            "identifier": "ea195b39e5104883be668e2dc03ab21c",
+            "an_real_end": "2025-11-02T20:55:46",
+            "op_plan_end": "2025-11-02T20:55:46",
+            "op_real_end": "2025-11-02T20:40:46",
+            "an_real_start": "2025-11-02T21:25:46",
+            "op_plan_start": "2025-11-02T20:25:46",
+            "op_real_start": "2025-11-02T21:25:46"
+        },
+        {
+            "id": "cfe0e3dd-6557-4f6f-b576-0c543d480992",
+            "price": 304056,
+            "identifier": "7e1268713d4e4dba94202c5ffb4ef38a",
+            "an_real_end": "2025-11-03T14:01:29",
+            "op_plan_end": "2025-11-03T14:16:29",
+            "op_real_end": "2025-11-03T14:16:29",
+            "an_real_start": "2025-11-03T14:46:29",
+            "op_plan_start": "2025-11-03T13:16:29",
+            "op_real_start": "2025-11-03T14:46:29"
+        },
+        {
+            "id": "2cf4896f-9c17-4ce8-be8e-58ab52c51f8b",
+            "price": 66429,
+            "identifier": "941f26d9e0af4820b4c18bd0164fff48",
+            "an_real_end": "2025-11-06T13:18:43",
+            "op_plan_end": "2025-11-06T12:48:43",
+            "op_real_end": "2025-11-06T12:48:43",
+            "an_real_start": "2025-11-06T12:33:43",
+            "op_plan_start": "2025-11-06T12:18:43",
+            "op_real_start": "2025-11-06T13:03:43"
+        },
+        {
+            "id": "44e39f48-2245-4015-8e96-f99b027893e8",
+            "price": 12066,
+            "identifier": "f1e1ca8f1fbf4250ab604a3f6b0c0c80",
+            "an_real_end": "2025-11-06T13:29:41",
+            "op_plan_end": "2025-11-06T13:29:41",
+            "op_real_end": "2025-11-06T12:59:41",
+            "an_real_start": "2025-11-06T12:59:41",
+            "op_plan_start": "2025-11-06T12:29:41",
+            "op_real_start": "2025-11-06T12:44:41"
+        },
+        {
+            "id": "2047e0b7-877e-47ae-9402-96de6868d8bb",
+            "price": 31489,
+            "identifier": "591b1122cfb54a8b95ee7b87e4be62d9",
+            "an_real_end": "2025-11-06T18:46:33",
+            "op_plan_end": "2025-11-06T18:31:33",
+            "op_real_end": "2025-11-06T19:01:33",
+            "an_real_start": "2025-11-06T18:46:33",
+            "op_plan_start": "2025-11-06T18:01:33",
+            "op_real_start": "2025-11-06T19:31:33"
+        },
+        {
+            "id": "055668bf-a97f-45f7-b8f9-4a54a4de445d",
+            "price": 23685,
+            "identifier": "87eda8a086ec49f3a0e08b7333705669",
+            "an_real_end": "2025-11-07T07:10:50",
+            "op_plan_end": "2025-11-07T06:25:50",
+            "op_real_end": "2025-11-07T06:40:50",
+            "an_real_start": "2025-11-07T06:55:50",
+            "op_plan_start": "2025-11-07T05:25:50",
+            "op_real_start": "2025-11-07T06:25:50"
+        },
+        {
+            "id": "a72ddb48-9464-41b0-8044-53e8682be0d3",
+            "price": 6913,
+            "identifier": "fa262d9a756c43c1b930ba6ed9a51795",
+            "an_real_end": "2025-11-13T10:46:46",
+            "op_plan_end": "2025-11-13T11:01:46",
+            "op_real_end": "2025-11-13T10:46:46",
+            "an_real_start": "2025-11-13T11:01:46",
+            "op_plan_start": "2025-11-13T10:01:46",
+            "op_real_start": "2025-11-13T11:01:46"
+        },
+        {
+            "id": "e14ebfc8-3284-4f10-a851-3107ac0924f3",
+            "price": 62002,
+            "identifier": "b190788efea94b78813f3e70dbe5b59e",
+            "an_real_end": "2025-11-15T10:48:31",
+            "op_plan_end": "2025-11-15T09:48:31",
+            "op_real_end": "2025-11-15T10:33:31",
+            "an_real_start": "2025-11-15T10:18:31",
+            "op_plan_start": "2025-11-15T09:03:31",
+            "op_real_start": "2025-11-15T10:33:31"
+        },
+        {
+            "id": "5f64ec63-8c60-4b53-9e6c-92cbd1e187d3",
+            "price": 9292,
+            "identifier": "testovací operace",
+            "an_real_end": "2025-11-28T16:30:00",
+            "op_plan_end": "2025-11-28T16:25:00",
+            "op_real_end": "2025-11-28T16:15:00",
+            "an_real_start": "2025-11-28T15:30:00",
+            "op_plan_start": "2025-11-28T15:30:00",
+            "op_real_start": "2025-11-28T15:45:00"
+        }
+    ],
+    "in_use": false
+}

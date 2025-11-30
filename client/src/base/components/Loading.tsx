@@ -8,7 +8,7 @@ import {
 } from "@mui/material"
 
 
-const Loading: FC<{ message?: string, spinner?: JSX.Element, sx?: any }> = ({ message = "", spinner, sx }) => {
+const Loading: FC<{ message?: string, spinner?: any, sx?: any }> = ({ message = "", spinner, sx }) => {
     return (
         <Backdrop
             open={true}

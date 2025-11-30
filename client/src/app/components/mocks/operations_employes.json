@@ -1,0 +1,62 @@
+[
+    {
+        "name": "MUDr. Jan Novák",
+        "job": "Primář Anesteziologie (ARO)",
+        "payment": 187700,
+        "id": "9490dc09-941d-4075-9fa8-6302441a3c5e"
+    },
+    {
+        "name": "MUDr. Alena Svobodová",
+        "job": "Vedoucí lékař Chirurgického OS",
+        "payment": 175440,
+        "id": "0a1d6b07-012e-4f3b-863b-454a9790075a"
+    },
+    {
+        "name": "Mgr. Petr Dvořák",
+        "job": "Vrchní sestra OS",
+        "payment": 102970,
+        "id": "7117182f-818e-472e-ae41-817c80811f06"
+    },
+    {
+        "name": "MUDr. Hana Benešová",
+        "job": "Lékař JIP ARO",
+        "payment": 147630,
+        "id": "638f78b9-63f5-431f-83d8-bce59bf97075"
+    },
+    {
+        "name": "Bc. Tomáš Kříž",
+        "job": "Anesteziologická sestra - specialista",
+        "payment": 83500,
+        "id": "a765688d-e9a1-40f7-8f64-fba9f4be1609"
+    },
+    {
+        "name": "Eva Jelínková",
+        "job": "Instrumentářka - kardiochirurgie",
+        "payment": 80436,
+        "id": "88fbb03c-dad4-4851-ae73-ffafd31f04e6"
+    },
+    {
+        "name": "MUDr. Martin Procházka",
+        "job": "Anesteziolog",
+        "payment": 126850,
+        "id": "54b3392b-5acf-482d-84db-2cef0b816c01"
+    },
+    {
+        "name": "Lucie Horáková",
+        "job": "Staniční sestra OS",
+        "payment": 90790,
+        "id": "33da6ae3-004a-486e-8e4e-ece2fad6d3fc"
+    },
+    {
+        "name": "Pavel Kučera",
+        "job": "Technik Biomedicíny (OS)",
+        "payment": 70850,
+        "id": "c9ee246f-4b41-413c-b213-4acac125e0b1"
+    },
+    {
+        "name": "MUDr. Veronika Veselá",
+        "job": "Lékař urgentního příjmu (OS podpora)",
+        "payment": 147000,
+        "id": "9051e8a0-cea8-4fae-b327-03b37c3c7a60"
+    }
+]

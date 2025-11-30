@@ -1,0 +1,113 @@
+{
+    "id": "dda7b9e4-8cb8-4845-8a92-ad1e06b67633",
+    "an_real_start": "2025-11-02T13:03:33",
+    "op_real_start": "2025-11-02T12:48:33",
+    "op_real_end": "2025-11-02T12:33:33",
+    "an_real_end": "2025-11-02T13:03:33",
+    "op_plan_start": "2025-11-02T12:03:33",
+    "op_plan_end": "2025-11-02T12:18:33",
+    "identifier": "4d6ee191d9874a99936e87d1054e1a19",
+    "price": 0,
+    "room_id": "478ee940-a9e6-42e6-a0c2-1fdce6c6e603",
+    "materials": [
+        {
+            "name": "Skalpel s čepelí č. 15",
+            "category": "Instrumentárium",
+            "identifier": "#FMT",
+            "unit_price": 22,
+            "id": "e0f7d002-ba32-42c9-8109-6c6c3459343b"
+        },
+        {
+            "name": "Návleky na obuv (pár)",
+            "category": "Ochranné pomůcky",
+            "identifier": "#FMT",
+            "unit_price": 6.5,
+            "id": "2744ea5d-17b6-4d87-9e0f-248eed9944a8"
+        },
+        {
+            "name": "Sada na epidurální anestezii",
+            "category": "ARO materiál",
+            "identifier": "#FMT",
+            "unit_price": 990,
+            "id": "1ec71051-1fae-4679-8e9e-1a0f74b778b4"
+        },
+        {
+            "name": "Hemostatická želatinová houba 8x8 cm",
+            "category": "Hemostyptika",
+            "identifier": "#FMT",
+            "unit_price": 650,
+            "id": "d5a76e76-6b61-41ff-a033-31799a5988da"
+        },
+        {
+            "name": "Neurochirurgické odsávací kanyly (jemné)",
+            "category": "Speciální pomůcky",
+            "identifier": "#FMT",
+            "unit_price": 410,
+            "id": "e85772ea-6215-4fee-8a04-67e08fe5fa0e"
+        }
+    ],
+    "tools": [
+        {
+            "name": "Stěrka na sternum (kardiochirurgie)",
+            "category": "Kardiologie",
+            "identifier": "R-KA-0047",
+            "unit_price": 28,
+            "udi_code": "(01)08591712245824(10)PP001225(21)251129095347",
+            "id": "85b419a5-34e3-428d-ad48-14b62d0ef1c6"
+        },
+        {
+            "name": "Žilní svorka (velká)",
+            "category": "Kardiologie",
+            "identifier": "R-KA-0048",
+            "unit_price": 24,
+            "udi_code": "(01)08591712245824(10)PP001225(21)251129095447",
+            "id": "4f6f8dae-1a32-4c42-8905-1399d54c8c82"
+        },
+        {
+            "name": "Vaginální retraktor",
+            "category": "Gynekologie",
+            "identifier": "R-GY-0049",
+            "unit_price": 20.5,
+            "udi_code": "(01)08591712245824(10)PP001225(21)251129095547",
+            "id": "ccc9098b-15fc-4b08-b99a-1fc3b63d2a46"
+        }
+    ],
+    "devices": [
+        {
+            "name": "Sterilizační autokláv (malý, rychlý)",
+            "category": "Sterilizace",
+            "identifier": "A-OS-10035",
+            "lifetime": 15000,
+            "udi_code": "(01)08591234567925(11)250201(17)270131(21)AOS10035",
+            "id": "25e79a98-5ce0-4b09-bc21-0700bfe5da12"
+        },
+        {
+            "name": "Robota pro asistovanou chirurgii (základní modul)",
+            "category": "Robotická chirurgie",
+            "identifier": "A-OS-10036",
+            "lifetime": 20000,
+            "udi_code": "(01)08591234567926(11)241210(17)281209(21)AOS10036",
+            "id": "a3cc45e8-7df9-41c4-8bc2-a1c81b0b35ba"
+        }
+    ],
+    "employes": [
+        {
+            "name": "Mgr. Petr Dvořák",
+            "job": "Vrchní sestra OS",
+            "payment": 102970,
+            "id": "7117182f-818e-472e-ae41-817c80811f06"
+        },
+        {
+            "name": "MUDr. Hana Benešová",
+            "job": "Lékař JIP ARO",
+            "payment": 147630,
+            "id": "638f78b9-63f5-431f-83d8-bce59bf97075"
+        },
+        {
+            "name": "Bc. Tomáš Kříž",
+            "job": "Anesteziologická sestra - specialista",
+            "payment": 83500,
+            "id": "a765688d-e9a1-40f7-8f64-fba9f4be1609"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "elixir",
+    "label": "elixir",
+    "value": 218,
+    "color": "hsl(138, 70%, 50%)"
+  },
+  {
+    "id": "stylus",
+    "label": "stylus",
+    "value": 66,
+    "color": "hsl(141, 70%, 50%)"
+  },
+  {
+    "id": "make",
+    "label": "make",
+    "value": 560,
+    "color": "hsl(269, 70%, 50%)"
+  },
+  {
+    "id": "java",
+    "label": "java",
+    "value": 35,
+    "color": "hsl(131, 70%, 50%)"
+  },
+  {
+    "id": "scala",
+    "label": "scala",
+    "value": 259,
+    "color": "hsl(4, 70%, 50%)"
+  }
+]

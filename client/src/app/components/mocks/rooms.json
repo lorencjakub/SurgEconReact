@@ -1,0 +1,1840 @@
+[
+  {
+    "id": "6526b6b0-7f39-4c3f-90b9-ad84f877c333",
+    "room": {
+      "identifier": "ORT1"
+    },
+    "operations": [
+      {
+        "id": "c2f9aed3-d8ff-48da-b98a-fd56a75bb3cf",
+        "price": 0,
+        "identifier": "4d91db8e177d4c56a560f5c735de6317",
+        "an_real_end": "2025-11-01T09:09:23",
+        "op_plan_end": "2025-11-01T08:54:23",
+        "op_real_end": "2025-11-01T09:24:23",
+        "an_real_start": "2025-11-01T09:24:23",
+        "op_plan_start": "2025-11-01T08:24:23",
+        "op_real_start": "2025-11-01T08:39:23"
+      },
+      {
+        "id": "f2204457-3505-486d-b62c-a49a08040cd1",
+        "price": 0,
+        "identifier": "ea195b39e5104883be668e2dc03ab21c",
+        "an_real_end": "2025-11-02T20:55:46",
+        "op_plan_end": "2025-11-02T20:55:46",
+        "op_real_end": "2025-11-02T20:40:46",
+        "an_real_start": "2025-11-02T21:25:46",
+        "op_plan_start": "2025-11-02T20:25:46",
+        "op_real_start": "2025-11-02T21:25:46"
+      },
+      {
+        "id": "cfe0e3dd-6557-4f6f-b576-0c543d480992",
+        "price": 0,
+        "identifier": "7e1268713d4e4dba94202c5ffb4ef38a",
+        "an_real_end": "2025-11-03T14:01:29",
+        "op_plan_end": "2025-11-03T14:16:29",
+        "op_real_end": "2025-11-03T14:16:29",
+        "an_real_start": "2025-11-03T14:46:29",
+        "op_plan_start": "2025-11-03T13:16:29",
+        "op_real_start": "2025-11-03T14:46:29"
+      },
+      {
+        "id": "2cf4896f-9c17-4ce8-be8e-58ab52c51f8b",
+        "price": 0,
+        "identifier": "941f26d9e0af4820b4c18bd0164fff48",
+        "an_real_end": "2025-11-06T13:18:43",
+        "op_plan_end": "2025-11-06T12:48:43",
+        "op_real_end": "2025-11-06T12:48:43",
+        "an_real_start": "2025-11-06T12:33:43",
+        "op_plan_start": "2025-11-06T12:18:43",
+        "op_real_start": "2025-11-06T13:03:43"
+      },
+      {
+        "id": "44e39f48-2245-4015-8e96-f99b027893e8",
+        "price": 0,
+        "identifier": "f1e1ca8f1fbf4250ab604a3f6b0c0c80",
+        "an_real_end": "2025-11-06T13:29:41",
+        "op_plan_end": "2025-11-06T13:29:41",
+        "op_real_end": "2025-11-06T12:59:41",
+        "an_real_start": "2025-11-06T12:59:41",
+        "op_plan_start": "2025-11-06T12:29:41",
+        "op_real_start": "2025-11-06T12:44:41"
+      },
+      {
+        "id": "2047e0b7-877e-47ae-9402-96de6868d8bb",
+        "price": 0,
+        "identifier": "591b1122cfb54a8b95ee7b87e4be62d9",
+        "an_real_end": "2025-11-06T18:46:33",
+        "op_plan_end": "2025-11-06T18:31:33",
+        "op_real_end": "2025-11-06T19:01:33",
+        "an_real_start": "2025-11-06T18:46:33",
+        "op_plan_start": "2025-11-06T18:01:33",
+        "op_real_start": "2025-11-06T19:31:33"
+      },
+      {
+        "id": "055668bf-a97f-45f7-b8f9-4a54a4de445d",
+        "price": 0,
+        "identifier": "87eda8a086ec49f3a0e08b7333705669",
+        "an_real_end": "2025-11-07T07:10:50",
+        "op_plan_end": "2025-11-07T06:25:50",
+        "op_real_end": "2025-11-07T06:40:50",
+        "an_real_start": "2025-11-07T06:55:50",
+        "op_plan_start": "2025-11-07T05:25:50",
+        "op_real_start": "2025-11-07T06:25:50"
+      },
+      {
+        "id": "a72ddb48-9464-41b0-8044-53e8682be0d3",
+        "price": 0,
+        "identifier": "fa262d9a756c43c1b930ba6ed9a51795",
+        "an_real_end": "2025-11-13T10:46:46",
+        "op_plan_end": "2025-11-13T11:01:46",
+        "op_real_end": "2025-11-13T10:46:46",
+        "an_real_start": "2025-11-13T11:01:46",
+        "op_plan_start": "2025-11-13T10:01:46",
+        "op_real_start": "2025-11-13T11:01:46"
+      },
+      {
+        "id": "e14ebfc8-3284-4f10-a851-3107ac0924f3",
+        "price": 0,
+        "identifier": "b190788efea94b78813f3e70dbe5b59e",
+        "an_real_end": "2025-11-15T10:48:31",
+        "op_plan_end": "2025-11-15T09:48:31",
+        "op_real_end": "2025-11-15T10:33:31",
+        "an_real_start": "2025-11-15T10:18:31",
+        "op_plan_start": "2025-11-15T09:03:31",
+        "op_real_start": "2025-11-15T10:33:31"
+      },
+      {
+        "id": "5f64ec63-8c60-4b53-9e6c-92cbd1e187d3",
+        "price": 0,
+        "identifier": "testovací operace",
+        "an_real_end": "2025-11-28T16:30:00",
+        "op_plan_end": "2025-11-28T16:25:00",
+        "op_real_end": "2025-11-28T16:15:00",
+        "an_real_start": "2025-11-28T15:30:00",
+        "op_plan_start": "2025-11-28T15:30:00",
+        "op_real_start": "2025-11-28T15:45:00"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "cfa4733d-e367-4317-95b0-95250b5347d0",
+    "room": {
+      "identifier": "ORT2"
+    },
+    "operations": [
+      {
+        "id": "8b1a4bac-5da2-46cb-a2b2-23814d0d56cd",
+        "price": 0,
+        "identifier": "f43081076bd84c79b907bce37e385a36",
+        "an_real_end": "2025-11-02T21:03:43",
+        "op_plan_end": "2025-11-02T21:33:43",
+        "op_real_end": "2025-11-02T21:18:43",
+        "an_real_start": "2025-11-02T21:18:43",
+        "op_plan_start": "2025-11-02T20:33:43",
+        "op_real_start": "2025-11-02T21:03:43"
+      },
+      {
+        "id": "12cd97e2-9969-4244-9a51-1da567e8956f",
+        "price": 0,
+        "identifier": "30a85daf060440cb97fbab822535b027",
+        "an_real_end": "2025-11-04T09:58:13",
+        "op_plan_end": "2025-11-04T10:28:13",
+        "op_real_end": "2025-11-04T10:13:13",
+        "an_real_start": "2025-11-04T09:58:13",
+        "op_plan_start": "2025-11-04T09:28:13",
+        "op_real_start": "2025-11-04T10:13:13"
+      },
+      {
+        "id": "4292ea9a-6b4f-40dd-bd3f-ddee8d98d3af",
+        "price": 0,
+        "identifier": "bd06e708c68c40539b53a624e98236bb",
+        "an_real_end": "2025-11-05T08:28:38",
+        "op_plan_end": "2025-11-05T07:58:38",
+        "op_real_end": "2025-11-05T08:43:38",
+        "an_real_start": "2025-11-05T08:28:38",
+        "op_plan_start": "2025-11-05T06:58:38",
+        "op_real_start": "2025-11-05T08:43:38"
+      },
+      {
+        "id": "0e7c8f6f-a173-4e53-86db-52febdd2fbf2",
+        "price": 0,
+        "identifier": "8548276715fa4d4999a9576fe1003a02",
+        "an_real_end": "2025-11-06T19:49:44",
+        "op_plan_end": "2025-11-06T19:19:44",
+        "op_real_end": "2025-11-06T19:49:44",
+        "an_real_start": "2025-11-06T19:49:44",
+        "op_plan_start": "2025-11-06T19:04:44",
+        "op_real_start": "2025-11-06T20:19:44"
+      },
+      {
+        "id": "72bc9aa5-be93-4af6-b95e-e2b8530de707",
+        "price": 0,
+        "identifier": "97f7bbd16e714a29ba0bd5d06c7891b8",
+        "an_real_end": "2025-11-08T07:27:57",
+        "op_plan_end": "2025-11-08T05:57:57",
+        "op_real_end": "2025-11-08T06:57:57",
+        "an_real_start": "2025-11-08T06:57:57",
+        "op_plan_start": "2025-11-08T05:42:57",
+        "op_real_start": "2025-11-08T06:42:57"
+      },
+      {
+        "id": "6fa967ec-c215-4115-a408-fb3b269111d9",
+        "price": 0,
+        "identifier": "0ebf2c5c84f34b788b2b5667be6798e5",
+        "an_real_end": "2025-11-08T11:53:37",
+        "op_plan_end": "2025-11-08T11:23:37",
+        "op_real_end": "2025-11-08T11:38:37",
+        "an_real_start": "2025-11-08T11:38:37",
+        "op_plan_start": "2025-11-08T11:08:37",
+        "op_real_start": "2025-11-08T11:53:37"
+      },
+      {
+        "id": "ee510a19-acec-4e0a-b240-3453118e22f2",
+        "price": 0,
+        "identifier": "2cc0f68fea0a4b6a8c64ba216c123266",
+        "an_real_end": "2025-11-08T22:06:46",
+        "op_plan_end": "2025-11-08T22:06:46",
+        "op_real_end": "2025-11-08T22:36:46",
+        "an_real_start": "2025-11-08T22:21:46",
+        "op_plan_start": "2025-11-08T21:36:46",
+        "op_real_start": "2025-11-08T22:06:46"
+      },
+      {
+        "id": "1051eb79-7bef-4a9d-8782-5aa6a2a9ba4d",
+        "price": 0,
+        "identifier": "a1f9bca0838b4a47be6f280123dd2b33",
+        "an_real_end": "2025-11-10T19:42:37",
+        "op_plan_end": "2025-11-10T20:27:37",
+        "op_real_end": "2025-11-10T19:57:37",
+        "an_real_start": "2025-11-10T20:12:37",
+        "op_plan_start": "2025-11-10T19:27:37",
+        "op_real_start": "2025-11-10T19:42:37"
+      },
+      {
+        "id": "1a2b12d0-748d-443a-9c36-51add6cbdfd1",
+        "price": 0,
+        "identifier": "b994f4d077ab4a609ad94aeb14b1b1d8",
+        "an_real_end": "2025-11-11T20:49:07",
+        "op_plan_end": "2025-11-11T20:49:07",
+        "op_real_end": "2025-11-11T20:34:07",
+        "an_real_start": "2025-11-11T21:19:07",
+        "op_plan_start": "2025-11-11T20:19:07",
+        "op_real_start": "2025-11-11T20:34:07"
+      },
+      {
+        "id": "4136eef4-2041-46f6-81ce-afd8358bab2a",
+        "price": 0,
+        "identifier": "b040df8b90ba40b88eb7926d150e73fd",
+        "an_real_end": "2025-11-12T12:10:41",
+        "op_plan_end": "2025-11-12T10:55:41",
+        "op_real_end": "2025-11-12T12:10:41",
+        "an_real_start": "2025-11-12T11:55:41",
+        "op_plan_start": "2025-11-12T10:40:41",
+        "op_real_start": "2025-11-12T12:10:41"
+      },
+      {
+        "id": "e89cb279-c9e1-4edf-8145-5b6bed74bbcd",
+        "price": 0,
+        "identifier": "d5413c983e234625958a002cf625480a",
+        "an_real_end": "2025-11-12T11:41:42",
+        "op_plan_end": "2025-11-12T10:56:42",
+        "op_real_end": "2025-11-12T11:11:42",
+        "an_real_start": "2025-11-12T11:26:42",
+        "op_plan_start": "2025-11-12T10:41:42",
+        "op_real_start": "2025-11-12T10:56:42"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "478ee940-a9e6-42e6-a0c2-1fdce6c6e603",
+    "room": {
+      "identifier": "ORT3"
+    },
+    "operations": [
+      {
+        "id": "dda7b9e4-8cb8-4845-8a92-ad1e06b67633",
+        "price": 0,
+        "identifier": "4d6ee191d9874a99936e87d1054e1a19",
+        "an_real_end": "2025-11-02T13:03:33",
+        "op_plan_end": "2025-11-02T12:18:33",
+        "op_real_end": "2025-11-02T12:33:33",
+        "an_real_start": "2025-11-02T13:03:33",
+        "op_plan_start": "2025-11-02T12:03:33",
+        "op_real_start": "2025-11-02T12:48:33"
+      },
+      {
+        "id": "5f97f582-b9f6-45b2-900a-12fbb914e26d",
+        "price": 0,
+        "identifier": "168d4f0a7791490e942d2bfb20b20229",
+        "an_real_end": "2025-11-05T12:11:07",
+        "op_plan_end": "2025-11-05T12:11:07",
+        "op_real_end": "2025-11-05T11:41:07",
+        "an_real_start": "2025-11-05T11:56:07",
+        "op_plan_start": "2025-11-05T11:26:07",
+        "op_real_start": "2025-11-05T11:56:07"
+      },
+      {
+        "id": "727f0456-64f6-4880-8b22-a5df755e9b2a",
+        "price": 0,
+        "identifier": "fedec5a35e4345a4a51dc3efe0eb5871",
+        "an_real_end": "2025-11-06T17:09:06",
+        "op_plan_end": "2025-11-06T17:09:06",
+        "op_real_end": "2025-11-06T17:24:06",
+        "an_real_start": "2025-11-06T17:39:06",
+        "op_plan_start": "2025-11-06T16:54:06",
+        "op_real_start": "2025-11-06T17:39:06"
+      },
+      {
+        "id": "5de9cdc9-5469-44c2-87a1-2adc898506b2",
+        "price": 0,
+        "identifier": "c81c6f67e65641e7bba6eaa3f204cc68",
+        "an_real_end": "2025-11-08T18:09:20",
+        "op_plan_end": "2025-11-08T18:24:20",
+        "op_real_end": "2025-11-08T18:09:20",
+        "an_real_start": "2025-11-08T18:09:20",
+        "op_plan_start": "2025-11-08T17:39:20",
+        "op_real_start": "2025-11-08T18:39:20"
+      },
+      {
+        "id": "54a8c752-6d99-431e-ad06-05283e227df5",
+        "price": 0,
+        "identifier": "37d9af8e943c48ca9b0d5d80f45a8a00",
+        "an_real_end": "2025-11-09T18:26:20",
+        "op_plan_end": "2025-11-09T18:41:20",
+        "op_real_end": "2025-11-09T18:41:20",
+        "an_real_start": "2025-11-09T18:41:20",
+        "op_plan_start": "2025-11-09T17:41:20",
+        "op_real_start": "2025-11-09T18:11:20"
+      },
+      {
+        "id": "1ea2f74d-27b5-488a-a7ab-06e4a9f83151",
+        "price": 0,
+        "identifier": "be0d68b69bcc4b4394daca0c72a635e0",
+        "an_real_end": "2025-11-10T09:40:22",
+        "op_plan_end": "2025-11-10T09:55:22",
+        "op_real_end": "2025-11-10T09:55:22",
+        "an_real_start": "2025-11-10T09:40:22",
+        "op_plan_start": "2025-11-10T09:25:22",
+        "op_real_start": "2025-11-10T10:10:22"
+      },
+      {
+        "id": "7d34aa10-bffe-457c-b058-640d7f1a4cd6",
+        "price": 0,
+        "identifier": "3360449bc46d4226a75491a92362b9f3",
+        "an_real_end": "2025-11-13T21:33:44",
+        "op_plan_end": "2025-11-13T21:03:44",
+        "op_real_end": "2025-11-13T21:33:44",
+        "an_real_start": "2025-11-13T21:33:44",
+        "op_plan_start": "2025-11-13T20:48:44",
+        "op_real_start": "2025-11-13T21:03:44"
+      },
+      {
+        "id": "72108ed2-39a7-4b32-8670-f13618a89d92",
+        "price": 0,
+        "identifier": "adeffe458bfd48ebbccff8248d315f26",
+        "an_real_end": "2025-11-14T14:56:21",
+        "op_plan_end": "2025-11-14T15:11:21",
+        "op_real_end": "2025-11-14T14:26:21",
+        "an_real_start": "2025-11-14T14:26:21",
+        "op_plan_start": "2025-11-14T14:11:21",
+        "op_real_start": "2025-11-14T14:26:21"
+      },
+      {
+        "id": "e598b851-f974-46e8-93b3-550c5784c70c",
+        "price": 0,
+        "identifier": "a8399b94c5934be58d95ce3f01c6b7c5",
+        "an_real_end": "2025-11-15T13:26:28",
+        "op_plan_end": "2025-11-15T12:41:28",
+        "op_real_end": "2025-11-15T13:11:28",
+        "an_real_start": "2025-11-15T13:56:28",
+        "op_plan_start": "2025-11-15T11:56:28",
+        "op_real_start": "2025-11-15T13:56:28"
+      },
+      {
+        "id": "38a2a487-4246-47e4-9277-12cc73f12555",
+        "price": 0,
+        "identifier": "af92674010fa41aeaf61e1314d933f93",
+        "an_real_end": "2025-11-15T16:18:47",
+        "op_plan_end": "2025-11-15T16:48:47",
+        "op_real_end": "2025-11-15T16:18:47",
+        "an_real_start": "2025-11-15T16:48:47",
+        "op_plan_start": "2025-11-15T15:48:47",
+        "op_real_start": "2025-11-15T16:03:47"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "02d1dc9c-b005-4a11-a3d9-38dda0d11198",
+    "room": {
+      "identifier": "ORT4"
+    },
+    "operations": [
+      {
+        "id": "2eaad70e-3317-491c-ba26-17f91bcef060",
+        "price": 0,
+        "identifier": "e3c192fc9e1848a29705b8649af5b4c6",
+        "an_real_end": "2025-11-02T07:34:20",
+        "op_plan_end": "2025-11-02T07:34:20",
+        "op_real_end": "2025-11-02T07:49:20",
+        "an_real_start": "2025-11-02T07:34:20",
+        "op_plan_start": "2025-11-02T06:34:20",
+        "op_real_start": "2025-11-02T07:34:20"
+      },
+      {
+        "id": "942275be-0123-4f8f-9e4c-57ec9cdbadd8",
+        "price": 0,
+        "identifier": "dfb383901557421697ad9fa34d7eb425",
+        "an_real_end": "2025-11-04T20:07:43",
+        "op_plan_end": "2025-11-04T19:37:43",
+        "op_real_end": "2025-11-04T20:07:43",
+        "an_real_start": "2025-11-04T19:52:43",
+        "op_plan_start": "2025-11-04T18:37:43",
+        "op_real_start": "2025-11-04T19:52:43"
+      },
+      {
+        "id": "db0782ca-b48b-4c1c-9f47-6bdc67669acf",
+        "price": 0,
+        "identifier": "8e2981a2a1b54f31ba7e92e7a3dfe000",
+        "an_real_end": "2025-11-08T02:01:44",
+        "op_plan_end": "2025-11-08T01:31:44",
+        "op_real_end": "2025-11-08T02:01:44",
+        "an_real_start": "2025-11-08T01:46:44",
+        "op_plan_start": "2025-11-08T01:16:44",
+        "op_real_start": "2025-11-08T01:31:44"
+      },
+      {
+        "id": "662673d3-a456-4723-90d3-c75038995799",
+        "price": 0,
+        "identifier": "674b4a2170f2476e8da348653cd0cdb1",
+        "an_real_end": "2025-11-08T19:24:42",
+        "op_plan_end": "2025-11-08T18:54:42",
+        "op_real_end": "2025-11-08T19:09:42",
+        "an_real_start": "2025-11-08T19:09:42",
+        "op_plan_start": "2025-11-08T17:54:42",
+        "op_real_start": "2025-11-08T19:24:42"
+      },
+      {
+        "id": "cf36ac10-e8e9-4e83-9d51-d2dfb67d50d4",
+        "price": 0,
+        "identifier": "8c854519dc304ced8599796e6945e7e2",
+        "an_real_end": "2025-11-11T19:53:27",
+        "op_plan_end": "2025-11-11T19:23:27",
+        "op_real_end": "2025-11-11T19:38:27",
+        "an_real_start": "2025-11-11T19:23:27",
+        "op_plan_start": "2025-11-11T19:08:27",
+        "op_real_start": "2025-11-11T19:23:27"
+      },
+      {
+        "id": "36f2bd83-2254-4037-a417-a0637b845ddc",
+        "price": 0,
+        "identifier": "0ecbbb1e738b49e8872bacecf12a13dd",
+        "an_real_end": "2025-11-13T11:17:08",
+        "op_plan_end": "2025-11-13T10:17:08",
+        "op_real_end": "2025-11-13T10:47:08",
+        "an_real_start": "2025-11-13T11:32:08",
+        "op_plan_start": "2025-11-13T09:47:08",
+        "op_real_start": "2025-11-13T10:47:08"
+      },
+      {
+        "id": "913f857f-4f35-46f3-b789-f4b7b4c09268",
+        "price": 0,
+        "identifier": "f98e9ea961464b4b84a314cb799c055f",
+        "an_real_end": "2025-11-13T18:54:30",
+        "op_plan_end": "2025-11-13T19:09:30",
+        "op_real_end": "2025-11-13T19:24:30",
+        "an_real_start": "2025-11-13T19:39:30",
+        "op_plan_start": "2025-11-13T18:39:30",
+        "op_real_start": "2025-11-13T19:24:30"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "36216266-ccdb-4787-a426-e00815378a39",
+    "room": {
+      "identifier": "ORT5"
+    },
+    "operations": [
+      {
+        "id": "f5c1c3d0-09a4-446a-b8c6-e34fc7d10331",
+        "price": 0,
+        "identifier": "478e2a977b2e494d9f85c406eece3a92",
+        "an_real_end": "2025-11-03T13:23:58",
+        "op_plan_end": "2025-11-03T13:08:58",
+        "op_real_end": "2025-11-03T13:53:58",
+        "an_real_start": "2025-11-03T13:23:58",
+        "op_plan_start": "2025-11-03T12:23:58",
+        "op_real_start": "2025-11-03T13:38:58"
+      },
+      {
+        "id": "43b658be-3914-46fa-a0df-2dce9c198894",
+        "price": 0,
+        "identifier": "58c4e9be4ec74d7ea4178e812ab4286c",
+        "an_real_end": "2025-11-03T13:18:30",
+        "op_plan_end": "2025-11-03T13:18:30",
+        "op_real_end": "2025-11-03T13:03:30",
+        "an_real_start": "2025-11-03T13:33:30",
+        "op_plan_start": "2025-11-03T12:48:30",
+        "op_real_start": "2025-11-03T13:33:30"
+      },
+      {
+        "id": "a3166553-1495-486f-b68c-f5e940597829",
+        "price": 0,
+        "identifier": "87b4c7a7d99342e39ff47bf3e0c99631",
+        "an_real_end": "2025-11-09T13:05:46",
+        "op_plan_end": "2025-11-09T13:05:46",
+        "op_real_end": "2025-11-09T12:20:46",
+        "an_real_start": "2025-11-09T12:20:46",
+        "op_plan_start": "2025-11-09T12:05:46",
+        "op_real_start": "2025-11-09T12:35:46"
+      },
+      {
+        "id": "3987dee1-98db-47d9-ac02-c7a1770f8334",
+        "price": 0,
+        "identifier": "c24c2d621dcc47cfb15b08f014092515",
+        "an_real_end": "2025-11-10T21:29:05",
+        "op_plan_end": "2025-11-10T21:14:05",
+        "op_real_end": "2025-11-10T21:29:05",
+        "an_real_start": "2025-11-10T21:29:05",
+        "op_plan_start": "2025-11-10T20:59:05",
+        "op_real_start": "2025-11-10T21:14:05"
+      },
+      {
+        "id": "463bcdb3-a609-4a28-9635-0d47c0e6b3d1",
+        "price": 0,
+        "identifier": "499f7ba800d643ffb4d27af7eb306ccc",
+        "an_real_end": "2025-11-12T12:19:50",
+        "op_plan_end": "2025-11-12T11:19:50",
+        "op_real_end": "2025-11-12T11:49:50",
+        "an_real_start": "2025-11-12T11:34:50",
+        "op_plan_start": "2025-11-12T11:04:50",
+        "op_real_start": "2025-11-12T12:19:50"
+      },
+      {
+        "id": "6f28a09f-2453-49fb-8b44-89d855dd52ca",
+        "price": 0,
+        "identifier": "c3010227c9d8462980b55fd9f3c8b8a7",
+        "an_real_end": "2025-11-12T13:27:30",
+        "op_plan_end": "2025-11-12T12:57:30",
+        "op_real_end": "2025-11-12T13:27:30",
+        "an_real_start": "2025-11-12T13:27:30",
+        "op_plan_start": "2025-11-12T12:27:30",
+        "op_real_start": "2025-11-12T13:27:30"
+      },
+      {
+        "id": "c2571c8c-fbc1-462e-9067-dd0158233aec",
+        "price": 0,
+        "identifier": "40cfc3320aa74fe5a1a557cf67786377",
+        "an_real_end": "2025-11-13T00:06:15",
+        "op_plan_end": "2025-11-13T00:21:15",
+        "op_real_end": "2025-11-13T00:21:15",
+        "an_real_start": "2025-11-13T00:21:15",
+        "op_plan_start": "2025-11-12T23:51:15",
+        "op_real_start": "2025-11-13T00:21:15"
+      },
+      {
+        "id": "8f0d27be-f909-432f-adf8-9f38ad4a7136",
+        "price": 0,
+        "identifier": "5d5ae0447afb4223b2792e9234d356e7",
+        "an_real_end": "2025-11-14T10:01:16",
+        "op_plan_end": "2025-11-14T09:31:16",
+        "op_real_end": "2025-11-14T10:31:16",
+        "an_real_start": "2025-11-14T10:16:16",
+        "op_plan_start": "2025-11-14T09:16:16",
+        "op_real_start": "2025-11-14T10:01:16"
+      },
+      {
+        "id": "84f71db8-c3cb-4613-9e23-a74ec38a2843",
+        "price": 0,
+        "identifier": "c2c85e4858c2467bab79d33b2866b421",
+        "an_real_end": "2025-11-14T19:12:55",
+        "op_plan_end": "2025-11-14T18:42:55",
+        "op_real_end": "2025-11-14T19:12:55",
+        "an_real_start": "2025-11-14T19:27:55",
+        "op_plan_start": "2025-11-14T18:12:55",
+        "op_real_start": "2025-11-14T19:12:55"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "14967ab6-f370-436c-838a-81e37e1cbb01",
+    "room": {
+      "identifier": "ORT6"
+    },
+    "operations": [
+      {
+        "id": "f866ca6c-5a9a-4f2b-bf4b-fee39897576c",
+        "price": 0,
+        "identifier": "a1b3492b8d964b26b3fb8a8bd068481a",
+        "an_real_end": "2025-11-02T07:14:18",
+        "op_plan_end": "2025-11-02T06:29:18",
+        "op_real_end": "2025-11-02T07:14:18",
+        "an_real_start": "2025-11-02T06:29:18",
+        "op_plan_start": "2025-11-02T06:14:18",
+        "op_real_start": "2025-11-02T07:14:18"
+      },
+      {
+        "id": "40a23513-f44e-4211-b7c7-2eae0f07d961",
+        "price": 0,
+        "identifier": "1ac1f38f0aaf44848a02929dbda9bbfb",
+        "an_real_end": "2025-11-03T09:19:35",
+        "op_plan_end": "2025-11-03T08:49:35",
+        "op_real_end": "2025-11-03T08:34:35",
+        "an_real_start": "2025-11-03T08:34:35",
+        "op_plan_start": "2025-11-03T08:19:35",
+        "op_real_start": "2025-11-03T08:34:35"
+      },
+      {
+        "id": "2305cf4d-3737-4467-9c00-8c9844b33b08",
+        "price": 0,
+        "identifier": "906a19650fd74a35b3845bf120c3f3b5",
+        "an_real_end": "2025-11-03T14:27:33",
+        "op_plan_end": "2025-11-03T13:42:33",
+        "op_real_end": "2025-11-03T14:27:33",
+        "an_real_start": "2025-11-03T14:12:33",
+        "op_plan_start": "2025-11-03T13:27:33",
+        "op_real_start": "2025-11-03T13:57:33"
+      },
+      {
+        "id": "d4523f03-71f9-4816-93c2-4f052d77fee7",
+        "price": 0,
+        "identifier": "874d473d55ee461d95eb1a6d5b4cc03a",
+        "an_real_end": "2025-11-04T06:54:59",
+        "op_plan_end": "2025-11-04T05:54:59",
+        "op_real_end": "2025-11-04T07:24:59",
+        "an_real_start": "2025-11-04T07:24:59",
+        "op_plan_start": "2025-11-04T05:39:59",
+        "op_real_start": "2025-11-04T06:54:59"
+      },
+      {
+        "id": "f0dfe8b9-36e0-4dfb-a2a9-47e920961f0c",
+        "price": 0,
+        "identifier": "0042296647914aa3802cbf4182c6ef85",
+        "an_real_end": "2025-11-05T10:52:03",
+        "op_plan_end": "2025-11-05T11:07:03",
+        "op_real_end": "2025-11-05T10:37:03",
+        "an_real_start": "2025-11-05T10:52:03",
+        "op_plan_start": "2025-11-05T10:22:03",
+        "op_real_start": "2025-11-05T10:37:03"
+      },
+      {
+        "id": "13ac9a89-92f2-4f11-9441-c30f99b5bcf8",
+        "price": 0,
+        "identifier": "cad1e905254a46868b967b382bcf3da7",
+        "an_real_end": "2025-11-07T09:56:33",
+        "op_plan_end": "2025-11-07T09:26:33",
+        "op_real_end": "2025-11-07T09:26:33",
+        "an_real_start": "2025-11-07T09:56:33",
+        "op_plan_start": "2025-11-07T08:26:33",
+        "op_real_start": "2025-11-07T09:11:33"
+      },
+      {
+        "id": "2bbbcbb5-8927-4533-b8bc-95b67918f369",
+        "price": 0,
+        "identifier": "e84f71572fc54aa5ba2a222dc90121ed",
+        "an_real_end": "2025-11-07T14:16:19",
+        "op_plan_end": "2025-11-07T14:01:19",
+        "op_real_end": "2025-11-07T14:16:19",
+        "an_real_start": "2025-11-07T14:16:19",
+        "op_plan_start": "2025-11-07T13:01:19",
+        "op_real_start": "2025-11-07T14:01:19"
+      },
+      {
+        "id": "81edde75-fbd5-4de4-94df-8a0626262a80",
+        "price": 0,
+        "identifier": "808a3e7388c84851822c09afb24f705b",
+        "an_real_end": "2025-11-08T14:41:27",
+        "op_plan_end": "2025-11-08T13:41:27",
+        "op_real_end": "2025-11-08T14:56:27",
+        "an_real_start": "2025-11-08T14:26:27",
+        "op_plan_start": "2025-11-08T13:26:27",
+        "op_real_start": "2025-11-08T14:11:27"
+      },
+      {
+        "id": "afcd4a0b-ba9f-47af-ab41-866bd394a239",
+        "price": 0,
+        "identifier": "c6ef1e0b720d40f4a57206699a22a60c",
+        "an_real_end": "2025-11-10T06:44:52",
+        "op_plan_end": "2025-11-10T06:14:52",
+        "op_real_end": "2025-11-10T06:29:52",
+        "an_real_start": "2025-11-10T06:29:52",
+        "op_plan_start": "2025-11-10T05:59:52",
+        "op_real_start": "2025-11-10T06:44:52"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "939c4cc6-99fd-4c1e-a3f1-ac9b1ce14417",
+    "room": {
+      "identifier": "ORT7"
+    },
+    "operations": [
+      {
+        "id": "2e7d27cb-da52-4235-855b-00b51cf2ff00",
+        "price": 0,
+        "identifier": "620625563d1944728fc4ad149c4756db",
+        "an_real_end": "2025-11-01T16:30:46",
+        "op_plan_end": "2025-11-01T16:15:46",
+        "op_real_end": "2025-11-01T16:45:46",
+        "an_real_start": "2025-11-01T16:30:46",
+        "op_plan_start": "2025-11-01T15:45:46",
+        "op_real_start": "2025-11-01T16:45:46"
+      },
+      {
+        "id": "ab17cafd-725d-440f-bb4b-b89b2e94358d",
+        "price": 0,
+        "identifier": "aa2a4574d47849ae80f616e1c729eb23",
+        "an_real_end": "2025-11-06T05:45:30",
+        "op_plan_end": "2025-11-06T05:30:30",
+        "op_real_end": "2025-11-06T05:30:30",
+        "an_real_start": "2025-11-06T06:00:30",
+        "op_plan_start": "2025-11-06T04:45:30",
+        "op_real_start": "2025-11-06T05:45:30"
+      },
+      {
+        "id": "da919a31-c4a6-41f0-b0ef-87d2ce95a302",
+        "price": 0,
+        "identifier": "086f62a57a5f4837b974877bf82c0ade",
+        "an_real_end": "2025-11-08T02:12:56",
+        "op_plan_end": "2025-11-08T01:42:56",
+        "op_real_end": "2025-11-08T02:12:56",
+        "an_real_start": "2025-11-08T01:42:56",
+        "op_plan_start": "2025-11-08T01:12:56",
+        "op_real_start": "2025-11-08T02:12:56"
+      },
+      {
+        "id": "2817f3d5-5709-4fc7-a366-a72517ed7603",
+        "price": 0,
+        "identifier": "3e0906d210214041b20a64fdf932bff2",
+        "an_real_end": "2025-11-10T09:10:26",
+        "op_plan_end": "2025-11-10T08:25:26",
+        "op_real_end": "2025-11-10T08:40:26",
+        "an_real_start": "2025-11-10T09:10:26",
+        "op_plan_start": "2025-11-10T08:10:26",
+        "op_real_start": "2025-11-10T08:55:26"
+      },
+      {
+        "id": "4cdcc981-e11e-4aa8-ba6a-9c4a57d37e20",
+        "price": 0,
+        "identifier": "c66e7bae0c944b76974369baa34a5eb6",
+        "an_real_end": "2025-11-11T05:46:09",
+        "op_plan_end": "2025-11-11T05:31:09",
+        "op_real_end": "2025-11-11T05:46:09",
+        "an_real_start": "2025-11-11T05:31:09",
+        "op_plan_start": "2025-11-11T04:46:09",
+        "op_real_start": "2025-11-11T05:16:09"
+      },
+      {
+        "id": "eaa067d1-6aa3-4c1b-b375-d394de3a5c09",
+        "price": 0,
+        "identifier": "9b7c5ac349a9404b84bc648c54a62d8b",
+        "an_real_end": "2025-11-13T01:06:28",
+        "op_plan_end": "2025-11-13T01:06:28",
+        "op_real_end": "2025-11-13T01:21:28",
+        "an_real_start": "2025-11-13T01:51:28",
+        "op_plan_start": "2025-11-13T00:06:28",
+        "op_real_start": "2025-11-13T01:06:28"
+      },
+      {
+        "id": "9edf9f4c-637e-44b0-9fbb-22da63cb20ef",
+        "price": 0,
+        "identifier": "fdda8871d8de4deaa91e7c11f05c87da",
+        "an_real_end": "2025-11-14T17:57:36",
+        "op_plan_end": "2025-11-14T17:57:36",
+        "op_real_end": "2025-11-14T18:12:36",
+        "an_real_start": "2025-11-14T17:42:36",
+        "op_plan_start": "2025-11-14T16:57:36",
+        "op_real_start": "2025-11-14T18:27:36"
+      },
+      {
+        "id": "c4ce5966-7e9b-4a3f-a5e8-e40be78e2d63",
+        "price": 0,
+        "identifier": "c85c51c3d2184811a2f900e2d259a76d",
+        "an_real_end": "2025-11-15T02:41:35",
+        "op_plan_end": "2025-11-15T02:41:35",
+        "op_real_end": "2025-11-15T02:26:35",
+        "an_real_start": "2025-11-15T02:26:35",
+        "op_plan_start": "2025-11-15T02:11:35",
+        "op_real_start": "2025-11-15T02:41:35"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "cd70e12d-c1ff-4a3b-8958-49305980e12f",
+    "room": {
+      "identifier": "ORT8"
+    },
+    "operations": [
+      {
+        "id": "c2a69710-fda1-4304-9a17-49865fc6ba36",
+        "price": 0,
+        "identifier": "c6f188de1ed14884820e0e206f03935c",
+        "an_real_end": "2025-11-01T08:09:53",
+        "op_plan_end": "2025-11-01T08:24:53",
+        "op_real_end": "2025-11-01T08:24:53",
+        "an_real_start": "2025-11-01T08:39:53",
+        "op_plan_start": "2025-11-01T07:54:53",
+        "op_real_start": "2025-11-01T08:39:53"
+      },
+      {
+        "id": "9d7798a7-ff0f-4e38-8945-0ffe110a59c4",
+        "price": 0,
+        "identifier": "a9d6496103044198bbb1c8f067f93919",
+        "an_real_end": "2025-11-01T11:39:53",
+        "op_plan_end": "2025-11-01T11:39:53",
+        "op_real_end": "2025-11-01T11:54:53",
+        "an_real_start": "2025-11-01T11:39:53",
+        "op_plan_start": "2025-11-01T11:09:53",
+        "op_real_start": "2025-11-01T11:54:53"
+      },
+      {
+        "id": "52510b83-f45f-4f1b-bbf6-94231cb9bde3",
+        "price": 0,
+        "identifier": "743d3bdb8caa40ddac4212c104de10af",
+        "an_real_end": "2025-11-03T01:14:51",
+        "op_plan_end": "2025-11-03T01:29:51",
+        "op_real_end": "2025-11-03T01:14:51",
+        "an_real_start": "2025-11-03T01:59:51",
+        "op_plan_start": "2025-11-03T00:59:51",
+        "op_real_start": "2025-11-03T01:14:51"
+      },
+      {
+        "id": "e26f04e1-4d0a-4f78-99f8-64f8e47e7af7",
+        "price": 0,
+        "identifier": "c62be5b6853b4b8989e445c56f43a808",
+        "an_real_end": "2025-11-03T03:18:46",
+        "op_plan_end": "2025-11-03T03:33:46",
+        "op_real_end": "2025-11-03T03:33:46",
+        "an_real_start": "2025-11-03T03:48:46",
+        "op_plan_start": "2025-11-03T03:03:46",
+        "op_real_start": "2025-11-03T03:18:46"
+      },
+      {
+        "id": "49f5d912-aabd-47a2-9b8d-7e9bab5df054",
+        "price": 0,
+        "identifier": "4669f2d135764a7c9545c96108813df5",
+        "an_real_end": "2025-11-10T20:43:32",
+        "op_plan_end": "2025-11-10T20:58:32",
+        "op_real_end": "2025-11-10T20:43:32",
+        "an_real_start": "2025-11-10T20:58:32",
+        "op_plan_start": "2025-11-10T20:13:32",
+        "op_real_start": "2025-11-10T20:43:32"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "ad5b368d-e3aa-4d5e-b11a-ed5549b50333",
+    "room": {
+      "identifier": "ORT9"
+    },
+    "operations": [
+      {
+        "id": "b6c05b08-5eab-4c94-a62e-37fff3b2cafb",
+        "price": 0,
+        "identifier": "0c8a81d6d76943989148731303fbabdb",
+        "an_real_end": "2025-11-02T14:57:14",
+        "op_plan_end": "2025-11-02T14:42:14",
+        "op_real_end": "2025-11-02T14:57:14",
+        "an_real_start": "2025-11-02T15:27:14",
+        "op_plan_start": "2025-11-02T14:27:14",
+        "op_real_start": "2025-11-02T14:57:14"
+      },
+      {
+        "id": "7ff6d1a4-2be4-43a0-ab4a-412dcf0edadf",
+        "price": 0,
+        "identifier": "9b1f4b12c9bf49079e1ec9f830a094fd",
+        "an_real_end": "2025-11-03T04:49:10",
+        "op_plan_end": "2025-11-03T04:49:10",
+        "op_real_end": "2025-11-03T04:19:10",
+        "an_real_start": "2025-11-03T04:04:10",
+        "op_plan_start": "2025-11-03T03:49:10",
+        "op_real_start": "2025-11-03T04:19:10"
+      },
+      {
+        "id": "1e7c6ab1-05d1-4e18-9b18-72dc665ef13e",
+        "price": 0,
+        "identifier": "5454c1f89cf24af788ee7af97a18838c",
+        "an_real_end": "2025-11-04T15:52:59",
+        "op_plan_end": "2025-11-04T15:22:59",
+        "op_real_end": "2025-11-04T15:22:59",
+        "an_real_start": "2025-11-04T15:07:59",
+        "op_plan_start": "2025-11-04T14:52:59",
+        "op_real_start": "2025-11-04T15:07:59"
+      },
+      {
+        "id": "0ffdc34f-1765-4133-a986-330480a05478",
+        "price": 0,
+        "identifier": "3a1b042eddeb4d5d80f49a728936ce96",
+        "an_real_end": "2025-11-05T18:31:13",
+        "op_plan_end": "2025-11-05T17:46:13",
+        "op_real_end": "2025-11-05T18:31:13",
+        "an_real_start": "2025-11-05T18:31:13",
+        "op_plan_start": "2025-11-05T17:16:13",
+        "op_real_start": "2025-11-05T18:01:13"
+      },
+      {
+        "id": "31a1bde1-094c-4c9e-bb7a-51977db8d116",
+        "price": 0,
+        "identifier": "c9c8d16698084ac8bfacecae20e15b87",
+        "an_real_end": "2025-11-09T08:25:33",
+        "op_plan_end": "2025-11-09T07:25:33",
+        "op_real_end": "2025-11-09T08:40:33",
+        "an_real_start": "2025-11-09T08:55:33",
+        "op_plan_start": "2025-11-09T07:10:33",
+        "op_real_start": "2025-11-09T08:40:33"
+      },
+      {
+        "id": "a595344c-9b44-4c35-88fb-030808d2c14c",
+        "price": 0,
+        "identifier": "b273be282de744ba808dbb7f8522e4df",
+        "an_real_end": "2025-11-09T11:02:46",
+        "op_plan_end": "2025-11-09T10:47:46",
+        "op_real_end": "2025-11-09T11:17:46",
+        "an_real_start": "2025-11-09T11:02:46",
+        "op_plan_start": "2025-11-09T10:32:46",
+        "op_real_start": "2025-11-09T11:47:46"
+      },
+      {
+        "id": "6e8f3209-fb9a-4213-adeb-2139e482010f",
+        "price": 0,
+        "identifier": "2d0bd82e579142bda28491d32449eb80",
+        "an_real_end": "2025-11-09T23:51:28",
+        "op_plan_end": "2025-11-09T23:51:28",
+        "op_real_end": "2025-11-10T00:06:28",
+        "an_real_start": "2025-11-10T00:21:28",
+        "op_plan_start": "2025-11-09T22:51:28",
+        "op_real_start": "2025-11-10T00:36:28"
+      },
+      {
+        "id": "fd2309ff-3d94-472c-ad94-10b0cdcc081f",
+        "price": 0,
+        "identifier": "666ad21544f64cf1be3ee29649265691",
+        "an_real_end": "2025-11-10T19:45:08",
+        "op_plan_end": "2025-11-10T20:30:08",
+        "op_real_end": "2025-11-10T20:15:08",
+        "an_real_start": "2025-11-10T19:45:08",
+        "op_plan_start": "2025-11-10T19:30:08",
+        "op_real_start": "2025-11-10T20:00:08"
+      },
+      {
+        "id": "c74a6ab7-2bec-4cac-b2ca-f3020da552ba",
+        "price": 0,
+        "identifier": "749e951689f04c3a84f2e9550a84eec4",
+        "an_real_end": "2025-11-12T09:20:05",
+        "op_plan_end": "2025-11-12T09:20:05",
+        "op_real_end": "2025-11-12T09:20:05",
+        "an_real_start": "2025-11-12T09:05:05",
+        "op_plan_start": "2025-11-12T08:20:05",
+        "op_real_start": "2025-11-12T08:50:05"
+      },
+      {
+        "id": "b7f289d9-2f12-4991-9583-668af6952189",
+        "price": 0,
+        "identifier": "f508bac51c5b491483d7c55a17e1cb40",
+        "an_real_end": "2025-11-12T12:56:01",
+        "op_plan_end": "2025-11-12T13:11:01",
+        "op_real_end": "2025-11-12T13:26:01",
+        "an_real_start": "2025-11-12T12:41:01",
+        "op_plan_start": "2025-11-12T12:26:01",
+        "op_real_start": "2025-11-12T13:26:01"
+      },
+      {
+        "id": "6dfb47a7-0c3c-473b-aa21-0dce501dd967",
+        "price": 0,
+        "identifier": "763c280ef144488482643d3adbd6992b",
+        "an_real_end": "2025-11-12T16:53:17",
+        "op_plan_end": "2025-11-12T16:53:17",
+        "op_real_end": "2025-11-12T17:08:17",
+        "an_real_start": "2025-11-12T16:53:17",
+        "op_plan_start": "2025-11-12T16:08:17",
+        "op_real_start": "2025-11-12T16:53:17"
+      },
+      {
+        "id": "36d45512-727e-46c3-8041-54d02bb7862f",
+        "price": 0,
+        "identifier": "9822da771bb04b999427913defd4aff3",
+        "an_real_end": "2025-11-13T12:57:57",
+        "op_plan_end": "2025-11-13T12:12:57",
+        "op_real_end": "2025-11-13T12:57:57",
+        "an_real_start": "2025-11-13T12:57:57",
+        "op_plan_start": "2025-11-13T11:57:57",
+        "op_real_start": "2025-11-13T12:27:57"
+      },
+      {
+        "id": "c1fdab79-3df5-43cd-b53d-cde0925e6345",
+        "price": 0,
+        "identifier": "a41691b1a02742b2a297dbef4dc163f5",
+        "an_real_end": "2025-11-13T19:33:55",
+        "op_plan_end": "2025-11-13T19:18:55",
+        "op_real_end": "2025-11-13T19:48:55",
+        "an_real_start": "2025-11-13T19:48:55",
+        "op_plan_start": "2025-11-13T19:03:55",
+        "op_real_start": "2025-11-13T19:33:55"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "7bb99797-081c-461f-948c-ba190063355f",
+    "room": {
+      "identifier": "ORT10"
+    },
+    "operations": [
+      {
+        "id": "b80e0e34-7ffb-4c93-a25a-5b3adca20602",
+        "price": 0,
+        "identifier": "e9f423bce5a540a3aea325ee0eda0e19",
+        "an_real_end": "2025-11-04T23:21:47",
+        "op_plan_end": "2025-11-04T23:51:47",
+        "op_real_end": "2025-11-05T00:06:47",
+        "an_real_start": "2025-11-05T00:06:47",
+        "op_plan_start": "2025-11-04T23:06:47",
+        "op_real_start": "2025-11-04T23:36:47"
+      },
+      {
+        "id": "30c742ef-2f60-4076-91ce-769e5c23fd30",
+        "price": 0,
+        "identifier": "4bd90cfdd2d041e48f12981e00e33e04",
+        "an_real_end": "2025-11-07T01:54:53",
+        "op_plan_end": "2025-11-07T01:09:53",
+        "op_real_end": "2025-11-07T01:54:53",
+        "an_real_start": "2025-11-07T01:39:53",
+        "op_plan_start": "2025-11-07T00:24:53",
+        "op_real_start": "2025-11-07T01:24:53"
+      },
+      {
+        "id": "3aba6e77-44e9-4136-b02b-e18d8644f661",
+        "price": 0,
+        "identifier": "2457e96b191f434ca206e43c816ddbbc",
+        "an_real_end": "2025-11-09T15:44:06",
+        "op_plan_end": "2025-11-09T14:59:06",
+        "op_real_end": "2025-11-09T15:44:06",
+        "an_real_start": "2025-11-09T15:44:06",
+        "op_plan_start": "2025-11-09T14:44:06",
+        "op_real_start": "2025-11-09T14:59:06"
+      },
+      {
+        "id": "eae3eb15-9c04-4dd0-9cd8-cf0fd8dbc99e",
+        "price": 0,
+        "identifier": "d63eb9ec5f59494fba7e485f295062d7",
+        "an_real_end": "2025-11-10T21:16:25",
+        "op_plan_end": "2025-11-10T21:01:25",
+        "op_real_end": "2025-11-10T21:46:25",
+        "an_real_start": "2025-11-10T21:16:25",
+        "op_plan_start": "2025-11-10T20:16:25",
+        "op_real_start": "2025-11-10T21:31:25"
+      },
+      {
+        "id": "54ad9d1d-429e-4c61-8f64-5804a3212ec1",
+        "price": 0,
+        "identifier": "1fd9263e46e24ae18ea1f156bf3eb21e",
+        "an_real_end": "2025-11-12T00:45:34",
+        "op_plan_end": "2025-11-12T00:45:34",
+        "op_real_end": "2025-11-12T00:45:34",
+        "an_real_start": "2025-11-12T01:00:34",
+        "op_plan_start": "2025-11-12T00:30:34",
+        "op_real_start": "2025-11-12T00:45:34"
+      },
+      {
+        "id": "d20f19e4-5002-41a1-bf5d-591e00ab6cbf",
+        "price": 0,
+        "identifier": "8932f7cadec84b08b12818baee895890",
+        "an_real_end": "2025-11-12T15:48:05",
+        "op_plan_end": "2025-11-12T15:03:05",
+        "op_real_end": "2025-11-12T15:03:05",
+        "an_real_start": "2025-11-12T15:33:05",
+        "op_plan_start": "2025-11-12T14:48:05",
+        "op_real_start": "2025-11-12T15:18:05"
+      },
+      {
+        "id": "3a8307bf-c0ec-4a27-9911-ce47bf3c998d",
+        "price": 0,
+        "identifier": "e52262cb36c3412ca277873b4903e504",
+        "an_real_end": "2025-11-13T11:46:21",
+        "op_plan_end": "2025-11-13T12:31:21",
+        "op_real_end": "2025-11-13T11:46:21",
+        "an_real_start": "2025-11-13T12:01:21",
+        "op_plan_start": "2025-11-13T11:31:21",
+        "op_real_start": "2025-11-13T11:46:21"
+      },
+      {
+        "id": "f1952b07-c0e8-40f2-8f4f-d3c090c6b4cc",
+        "price": 0,
+        "identifier": "5c12416e261a420597807de123cb8f1a",
+        "an_real_end": "2025-11-14T07:19:26",
+        "op_plan_end": "2025-11-14T05:49:26",
+        "op_real_end": "2025-11-14T07:34:26",
+        "an_real_start": "2025-11-14T07:34:26",
+        "op_plan_start": "2025-11-14T05:34:26",
+        "op_real_start": "2025-11-14T07:19:26"
+      },
+      {
+        "id": "c58981bc-aed9-41c3-9996-f8f76e234e30",
+        "price": 0,
+        "identifier": "be6518a455324466b6e2dc1e1a31e615",
+        "an_real_end": "2025-11-14T12:22:17",
+        "op_plan_end": "2025-11-14T12:22:17",
+        "op_real_end": "2025-11-14T11:37:17",
+        "an_real_start": "2025-11-14T12:22:17",
+        "op_plan_start": "2025-11-14T11:22:17",
+        "op_real_start": "2025-11-14T12:22:17"
+      },
+      {
+        "id": "6be52397-7c69-46c4-805a-427ae2294feb",
+        "price": 0,
+        "identifier": "71cbd112012644cabe49019b83fe99e7",
+        "an_real_end": "2025-11-15T16:29:19",
+        "op_plan_end": "2025-11-15T16:44:19",
+        "op_real_end": "2025-11-15T16:29:19",
+        "an_real_start": "2025-11-15T16:59:19",
+        "op_plan_start": "2025-11-15T15:59:19",
+        "op_real_start": "2025-11-15T16:44:19"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "ac3f2411-7b1f-4fab-8f48-036ca0302df2",
+    "room": {
+      "identifier": "ORT11"
+    },
+    "operations": [
+      {
+        "id": "59ff2b59-bb8b-4289-bfa5-2abfc5f5b17b",
+        "price": 0,
+        "identifier": "7c59ae35b66d4858b95969b8674dde9c",
+        "an_real_end": "2025-11-02T18:06:38",
+        "op_plan_end": "2025-11-02T17:51:38",
+        "op_real_end": "2025-11-02T18:06:38",
+        "an_real_start": "2025-11-02T18:06:38",
+        "op_plan_start": "2025-11-02T17:36:38",
+        "op_real_start": "2025-11-02T18:21:38"
+      },
+      {
+        "id": "9007002f-c0c6-4214-8d0c-e790de8239b5",
+        "price": 0,
+        "identifier": "dab728f7aef740299f2f21d76a53ba1b",
+        "an_real_end": "2025-11-04T15:44:46",
+        "op_plan_end": "2025-11-04T15:14:46",
+        "op_real_end": "2025-11-04T15:14:46",
+        "an_real_start": "2025-11-04T15:44:46",
+        "op_plan_start": "2025-11-04T14:29:46",
+        "op_real_start": "2025-11-04T15:14:46"
+      },
+      {
+        "id": "25bef192-1328-423c-9bd1-3cbe95adfed1",
+        "price": 0,
+        "identifier": "10c802307be6456dbb93b2bd4537c38b",
+        "an_real_end": "2025-11-05T07:17:40",
+        "op_plan_end": "2025-11-05T07:02:40",
+        "op_real_end": "2025-11-05T07:32:40",
+        "an_real_start": "2025-11-05T07:17:40",
+        "op_plan_start": "2025-11-05T06:47:40",
+        "op_real_start": "2025-11-05T07:47:40"
+      },
+      {
+        "id": "2f743100-f878-46fd-a2be-27567a386a63",
+        "price": 0,
+        "identifier": "d608eb408c2141c6ba0db29cd777054f",
+        "an_real_end": "2025-11-07T01:49:12",
+        "op_plan_end": "2025-11-07T00:49:12",
+        "op_real_end": "2025-11-07T01:49:12",
+        "an_real_start": "2025-11-07T01:34:12",
+        "op_plan_start": "2025-11-07T00:19:12",
+        "op_real_start": "2025-11-07T01:04:12"
+      },
+      {
+        "id": "0a78fc34-3a8a-4b0e-94be-df1218c6e973",
+        "price": 0,
+        "identifier": "300347630d664dd8a2a94da909430e5e",
+        "an_real_end": "2025-11-09T20:45:52",
+        "op_plan_end": "2025-11-09T20:15:52",
+        "op_real_end": "2025-11-09T21:15:52",
+        "an_real_start": "2025-11-09T21:15:52",
+        "op_plan_start": "2025-11-09T19:30:52",
+        "op_real_start": "2025-11-09T20:30:52"
+      },
+      {
+        "id": "36ce9043-4028-450e-ba87-bb76fc9b6030",
+        "price": 0,
+        "identifier": "43fb4d0170b34f1d9568cd430c398480",
+        "an_real_end": "2025-11-10T00:43:40",
+        "op_plan_end": "2025-11-10T00:28:40",
+        "op_real_end": "2025-11-09T23:58:40",
+        "an_real_start": "2025-11-10T00:43:40",
+        "op_plan_start": "2025-11-09T23:28:40",
+        "op_real_start": "2025-11-10T00:28:40"
+      },
+      {
+        "id": "f5d13696-e752-4792-9967-a7833fa6315c",
+        "price": 0,
+        "identifier": "1be9a7385ff34693a8efd3150d3ec7e6",
+        "an_real_end": "2025-11-13T18:01:05",
+        "op_plan_end": "2025-11-13T18:31:05",
+        "op_real_end": "2025-11-13T18:01:05",
+        "an_real_start": "2025-11-13T17:46:05",
+        "op_plan_start": "2025-11-13T17:31:05",
+        "op_real_start": "2025-11-13T18:31:05"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "84b02f4c-b627-47bc-8123-5376d8243107",
+    "room": {
+      "identifier": "ORT12"
+    },
+    "operations": [
+      {
+        "id": "52d18f3e-7642-404d-9cea-d3358be0c69d",
+        "price": 0,
+        "identifier": "53204740ef2542039d3be419f9ba7862",
+        "an_real_end": "2025-11-02T04:16:34",
+        "op_plan_end": "2025-11-02T03:16:34",
+        "op_real_end": "2025-11-02T04:31:34",
+        "an_real_start": "2025-11-02T04:16:34",
+        "op_plan_start": "2025-11-02T02:31:34",
+        "op_real_start": "2025-11-02T03:46:34"
+      },
+      {
+        "id": "f5d69877-33d1-4fc5-a04a-dd3dca6fb280",
+        "price": 0,
+        "identifier": "ec6e598613994602ac3041732f19aeee",
+        "an_real_end": "2025-11-02T12:29:31",
+        "op_plan_end": "2025-11-02T12:29:31",
+        "op_real_end": "2025-11-02T11:59:31",
+        "an_real_start": "2025-11-02T11:44:31",
+        "op_plan_start": "2025-11-02T11:29:31",
+        "op_real_start": "2025-11-02T11:44:31"
+      },
+      {
+        "id": "e7d5c7a9-6731-476a-8503-b9a69a8ece18",
+        "price": 0,
+        "identifier": "eb836cccaed64a9aaf3f0ba398699422",
+        "an_real_end": "2025-11-02T13:05:50",
+        "op_plan_end": "2025-11-02T13:20:50",
+        "op_real_end": "2025-11-02T13:20:50",
+        "an_real_start": "2025-11-02T13:20:50",
+        "op_plan_start": "2025-11-02T12:35:50",
+        "op_real_start": "2025-11-02T13:05:50"
+      },
+      {
+        "id": "bdabaa14-b299-4098-baa8-00afe66d30df",
+        "price": 0,
+        "identifier": "69e31f3dfb96456eacb4cc7e6a930594",
+        "an_real_end": "2025-11-02T19:18:59",
+        "op_plan_end": "2025-11-02T19:18:59",
+        "op_real_end": "2025-11-02T19:03:59",
+        "an_real_start": "2025-11-02T18:48:59",
+        "op_plan_start": "2025-11-02T18:18:59",
+        "op_real_start": "2025-11-02T18:33:59"
+      },
+      {
+        "id": "91335902-763d-485b-a8f7-df3d226ff384",
+        "price": 0,
+        "identifier": "a13830c2dcca468e9b496332fbd980d3",
+        "an_real_end": "2025-11-04T04:48:31",
+        "op_plan_end": "2025-11-04T04:48:31",
+        "op_real_end": "2025-11-04T04:18:31",
+        "an_real_start": "2025-11-04T04:33:31",
+        "op_plan_start": "2025-11-04T03:48:31",
+        "op_real_start": "2025-11-04T04:18:31"
+      },
+      {
+        "id": "de395d34-bafc-43f3-aaf8-9e44d56e2947",
+        "price": 0,
+        "identifier": "b2d662d5a9bf4094b8ec34199825be1f",
+        "an_real_end": "2025-11-08T19:44:45",
+        "op_plan_end": "2025-11-08T19:29:45",
+        "op_real_end": "2025-11-08T19:29:45",
+        "an_real_start": "2025-11-08T19:29:45",
+        "op_plan_start": "2025-11-08T18:44:45",
+        "op_real_start": "2025-11-08T19:44:45"
+      },
+      {
+        "id": "b4e2e334-5944-481f-adb2-436877437b35",
+        "price": 0,
+        "identifier": "37e36829aaff4409bc9437d8161775ce",
+        "an_real_end": "2025-11-08T21:23:11",
+        "op_plan_end": "2025-11-08T21:53:11",
+        "op_real_end": "2025-11-08T22:08:11",
+        "an_real_start": "2025-11-08T22:08:11",
+        "op_plan_start": "2025-11-08T21:08:11",
+        "op_real_start": "2025-11-08T22:08:11"
+      },
+      {
+        "id": "12eadf9f-6fd7-41c5-b59b-08fa8e268abe",
+        "price": 0,
+        "identifier": "198f197266144dfeabc182f7b940c310",
+        "an_real_end": "2025-11-09T12:21:12",
+        "op_plan_end": "2025-11-09T12:21:12",
+        "op_real_end": "2025-11-09T12:06:12",
+        "an_real_start": "2025-11-09T12:06:12",
+        "op_plan_start": "2025-11-09T11:21:12",
+        "op_real_start": "2025-11-09T12:21:12"
+      },
+      {
+        "id": "4dbe0a30-a0b4-49c3-a023-9e9a45f11ea0",
+        "price": 0,
+        "identifier": "99fd786fc0884db58323b43b33d5e7e7",
+        "an_real_end": "2025-11-10T20:36:01",
+        "op_plan_end": "2025-11-10T20:06:01",
+        "op_real_end": "2025-11-10T20:51:01",
+        "an_real_start": "2025-11-10T20:36:01",
+        "op_plan_start": "2025-11-10T19:51:01",
+        "op_real_start": "2025-11-10T20:36:01"
+      },
+      {
+        "id": "c42892c9-d5dc-4f89-a6ba-068c5ff69528",
+        "price": 0,
+        "identifier": "55e10e4042154077baa3fec4ac111231",
+        "an_real_end": "2025-11-13T15:10:06",
+        "op_plan_end": "2025-11-13T15:25:06",
+        "op_real_end": "2025-11-13T15:25:06",
+        "an_real_start": "2025-11-13T15:55:06",
+        "op_plan_start": "2025-11-13T14:25:06",
+        "op_real_start": "2025-11-13T15:25:06"
+      },
+      {
+        "id": "17ab2741-eb1f-4305-8bcc-2a0f0093b4bc",
+        "price": 0,
+        "identifier": "879f1c9498244692aacf1741e40292a2",
+        "an_real_end": "2025-11-13T19:25:43",
+        "op_plan_end": "2025-11-13T18:55:43",
+        "op_real_end": "2025-11-13T19:10:43",
+        "an_real_start": "2025-11-13T19:25:43",
+        "op_plan_start": "2025-11-13T18:40:43",
+        "op_real_start": "2025-11-13T19:10:43"
+      },
+      {
+        "id": "9c5a14c5-f803-4086-853e-a129cea7d5f4",
+        "price": 0,
+        "identifier": "fb3dbb26ad81461eb537b8c41727bf4f",
+        "an_real_end": "2025-11-14T04:16:00",
+        "op_plan_end": "2025-11-14T04:46:00",
+        "op_real_end": "2025-11-14T04:01:00",
+        "an_real_start": "2025-11-14T04:16:00",
+        "op_plan_start": "2025-11-14T03:46:00",
+        "op_real_start": "2025-11-14T04:01:00"
+      },
+      {
+        "id": "e2119664-65c0-43e7-af61-1191f19cf3a6",
+        "price": 0,
+        "identifier": "a435795a020c4c6cb5436939fe8477e9",
+        "an_real_end": "2025-11-14T08:13:22",
+        "op_plan_end": "2025-11-14T07:58:22",
+        "op_real_end": "2025-11-14T08:13:22",
+        "an_real_start": "2025-11-14T08:13:22",
+        "op_plan_start": "2025-11-14T07:28:22",
+        "op_real_start": "2025-11-14T07:58:22"
+      },
+      {
+        "id": "b5d933f4-27ed-4c91-8d4b-311ff5aa6f78",
+        "price": 0,
+        "identifier": "9ad25b5ee06a4399bd52714cc69bf887",
+        "an_real_end": "2025-11-14T14:13:22",
+        "op_plan_end": "2025-11-14T13:43:22",
+        "op_real_end": "2025-11-14T14:28:22",
+        "an_real_start": "2025-11-14T14:13:22",
+        "op_plan_start": "2025-11-14T13:13:22",
+        "op_real_start": "2025-11-14T14:13:22"
+      },
+      {
+        "id": "c271b1ad-5aec-4afa-81ac-9ba271b0c450",
+        "price": 0,
+        "identifier": "d52d3829acbb4ff38cd0003d75420f83",
+        "an_real_end": "2025-11-14T14:02:34",
+        "op_plan_end": "2025-11-14T14:02:34",
+        "op_real_end": "2025-11-14T14:47:34",
+        "an_real_start": "2025-11-14T14:17:34",
+        "op_plan_start": "2025-11-14T13:47:34",
+        "op_real_start": "2025-11-14T14:47:34"
+      },
+      {
+        "id": "5702a18c-9742-4f2c-b050-aa7b53b0369a",
+        "price": 0,
+        "identifier": "74f4c1ceee044ccea859b6c920af29d9",
+        "an_real_end": "2025-11-15T05:12:46",
+        "op_plan_end": "2025-11-15T05:12:46",
+        "op_real_end": "2025-11-15T05:12:46",
+        "an_real_start": "2025-11-15T04:27:46",
+        "op_plan_start": "2025-11-15T04:12:46",
+        "op_real_start": "2025-11-15T05:12:46"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "24b1a61a-3208-4733-b713-2d36b1152450",
+    "room": {
+      "identifier": "ORT13"
+    },
+    "operations": [
+      {
+        "id": "a8dc4d2e-d4ef-4acf-b898-a927879378ba",
+        "price": 0,
+        "identifier": "fd466ff31a064d8e91d5490dc6bfa52c",
+        "an_real_end": "2025-11-06T04:07:15",
+        "op_plan_end": "2025-11-06T03:22:15",
+        "op_real_end": "2025-11-06T03:37:15",
+        "an_real_start": "2025-11-06T04:07:15",
+        "op_plan_start": "2025-11-06T02:37:15",
+        "op_real_start": "2025-11-06T03:37:15"
+      },
+      {
+        "id": "4cf55586-325f-4168-ae4a-ef746fa8effa",
+        "price": 0,
+        "identifier": "cf7809c9b0db4be0bd389aff3e9cdf85",
+        "an_real_end": "2025-11-09T16:28:31",
+        "op_plan_end": "2025-11-09T16:43:31",
+        "op_real_end": "2025-11-09T16:13:31",
+        "an_real_start": "2025-11-09T15:58:31",
+        "op_plan_start": "2025-11-09T15:43:31",
+        "op_real_start": "2025-11-09T16:43:31"
+      },
+      {
+        "id": "0cd31648-48b6-4739-b16e-78fa12783fc8",
+        "price": 0,
+        "identifier": "dd9bc71af5d44338a73926a490e602e1",
+        "an_real_end": "2025-11-10T13:53:57",
+        "op_plan_end": "2025-11-10T13:53:57",
+        "op_real_end": "2025-11-10T14:23:57",
+        "an_real_start": "2025-11-10T14:08:57",
+        "op_plan_start": "2025-11-10T13:23:57",
+        "op_real_start": "2025-11-10T13:53:57"
+      },
+      {
+        "id": "e4d444d0-d070-47c7-8bab-742953c4d5f4",
+        "price": 0,
+        "identifier": "93dba369978f4d6c933ffcc9e5a242f5",
+        "an_real_end": "2025-11-14T00:40:11",
+        "op_plan_end": "2025-11-13T23:55:11",
+        "op_real_end": "2025-11-14T00:40:11",
+        "an_real_start": "2025-11-14T00:55:11",
+        "op_plan_start": "2025-11-13T22:55:11",
+        "op_real_start": "2025-11-14T00:55:11"
+      },
+      {
+        "id": "95ad6f20-0650-40e7-9416-ea71cf05226a",
+        "price": 0,
+        "identifier": "6fa4025441fe440b837553df8dfb98d4",
+        "an_real_end": "2025-11-14T22:19:08",
+        "op_plan_end": "2025-11-14T23:04:08",
+        "op_real_end": "2025-11-14T22:34:08",
+        "an_real_start": "2025-11-14T23:04:08",
+        "op_plan_start": "2025-11-14T22:04:08",
+        "op_real_start": "2025-11-14T22:19:08"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "b2878db3-b2f9-4773-81cf-d1f5155b2bf7",
+    "room": {
+      "identifier": "ORT13"
+    },
+    "operations": [
+      {
+        "id": "75dec741-2db8-494a-ac58-bbe95e4bd4ee",
+        "price": 0,
+        "identifier": "c8c968f99bf2427a8954fa7ff2547760",
+        "an_real_end": "2025-11-02T03:55:20",
+        "op_plan_end": "2025-11-02T03:55:20",
+        "op_real_end": "2025-11-02T03:55:20",
+        "an_real_start": "2025-11-02T03:25:20",
+        "op_plan_start": "2025-11-02T03:10:20",
+        "op_real_start": "2025-11-02T03:40:20"
+      },
+      {
+        "id": "2009f9f7-d732-4f8a-9bf0-d7febaa06e15",
+        "price": 0,
+        "identifier": "f8f39a8113eb4c65a78c29942e8496ba",
+        "an_real_end": "2025-11-02T13:24:14",
+        "op_plan_end": "2025-11-02T12:54:14",
+        "op_real_end": "2025-11-02T13:54:14",
+        "an_real_start": "2025-11-02T13:24:14",
+        "op_plan_start": "2025-11-02T12:24:14",
+        "op_real_start": "2025-11-02T14:09:14"
+      },
+      {
+        "id": "b718c483-cb27-4b15-925e-017f5f0cb7d4",
+        "price": 0,
+        "identifier": "5e20671cbc6f43b3b4155b0c3e3183cf",
+        "an_real_end": "2025-11-06T04:50:14",
+        "op_plan_end": "2025-11-06T04:05:14",
+        "op_real_end": "2025-11-06T04:35:14",
+        "an_real_start": "2025-11-06T04:20:14",
+        "op_plan_start": "2025-11-06T03:20:14",
+        "op_real_start": "2025-11-06T04:20:14"
+      },
+      {
+        "id": "4a110efa-0202-4cd8-ac2f-b1e2260a23a4",
+        "price": 0,
+        "identifier": "3123d4997dd1482e8c62bef9e8c11c27",
+        "an_real_end": "2025-11-07T11:59:21",
+        "op_plan_end": "2025-11-07T11:29:21",
+        "op_real_end": "2025-11-07T11:29:21",
+        "an_real_start": "2025-11-07T11:29:21",
+        "op_plan_start": "2025-11-07T10:29:21",
+        "op_real_start": "2025-11-07T11:59:21"
+      },
+      {
+        "id": "5c8c57c3-c0bb-4503-bb3c-fd8883a2faff",
+        "price": 0,
+        "identifier": "dc86fd498544422e84bda299167bc9f7",
+        "an_real_end": "2025-11-09T07:15:25",
+        "op_plan_end": "2025-11-09T06:30:25",
+        "op_real_end": "2025-11-09T06:30:25",
+        "an_real_start": "2025-11-09T07:00:25",
+        "op_plan_start": "2025-11-09T05:45:25",
+        "op_real_start": "2025-11-09T07:15:25"
+      },
+      {
+        "id": "c7b540c1-a900-445c-8afa-de7bec3bc1da",
+        "price": 0,
+        "identifier": "b6427ec4a4be46a3ac09ddb45875f883",
+        "an_real_end": "2025-11-09T19:31:19",
+        "op_plan_end": "2025-11-09T18:46:19",
+        "op_real_end": "2025-11-09T19:01:19",
+        "an_real_start": "2025-11-09T19:16:19",
+        "op_plan_start": "2025-11-09T18:31:19",
+        "op_real_start": "2025-11-09T19:31:19"
+      },
+      {
+        "id": "61a46a8d-b97a-4f17-96ce-6dd634e9db37",
+        "price": 0,
+        "identifier": "45157a1b97f848a3bc03252644f18803",
+        "an_real_end": "2025-11-10T17:44:54",
+        "op_plan_end": "2025-11-10T17:29:54",
+        "op_real_end": "2025-11-10T17:44:54",
+        "an_real_start": "2025-11-10T18:29:54",
+        "op_plan_start": "2025-11-10T16:29:54",
+        "op_real_start": "2025-11-10T17:44:54"
+      },
+      {
+        "id": "d9a8483c-9511-451c-ade0-62a8d3edb207",
+        "price": 0,
+        "identifier": "1fc5f85fa33640d192ea7cc488373515",
+        "an_real_end": "2025-11-13T14:44:29",
+        "op_plan_end": "2025-11-13T12:59:29",
+        "op_real_end": "2025-11-13T13:59:29",
+        "an_real_start": "2025-11-13T13:59:29",
+        "op_plan_start": "2025-11-13T12:44:29",
+        "op_real_start": "2025-11-13T14:29:29"
+      },
+      {
+        "id": "1e8356ce-09c1-4148-99f2-6d3641111153",
+        "price": 0,
+        "identifier": "e608ae1b54d34111afad76625bdf61c1",
+        "an_real_end": "2025-11-13T20:25:03",
+        "op_plan_end": "2025-11-13T20:40:03",
+        "op_real_end": "2025-11-13T20:40:03",
+        "an_real_start": "2025-11-13T20:25:03",
+        "op_plan_start": "2025-11-13T19:55:03",
+        "op_real_start": "2025-11-13T20:40:03"
+      },
+      {
+        "id": "11a3d638-51de-49be-816f-af7e4fd272c0",
+        "price": 0,
+        "identifier": "bcc597c305f049068cd03689618a9cfb",
+        "an_real_end": "2025-11-14T03:56:51",
+        "op_plan_end": "2025-11-14T04:11:51",
+        "op_real_end": "2025-11-14T03:56:51",
+        "an_real_start": "2025-11-14T04:26:51",
+        "op_plan_start": "2025-11-14T03:26:51",
+        "op_real_start": "2025-11-14T04:41:51"
+      },
+      {
+        "id": "9d12564a-a500-4e2c-a3cd-bb6c7f2c40c0",
+        "price": 0,
+        "identifier": "e902fdab6e364eebba9b892c6e5253b0",
+        "an_real_end": "2025-11-14T05:52:31",
+        "op_plan_end": "2025-11-14T05:52:31",
+        "op_real_end": "2025-11-14T05:22:31",
+        "an_real_start": "2025-11-14T05:52:31",
+        "op_plan_start": "2025-11-14T05:07:31",
+        "op_real_start": "2025-11-14T05:22:31"
+      },
+      {
+        "id": "2980c13a-c5d8-434c-9a11-50d1ae7e72fe",
+        "price": 0,
+        "identifier": "9ee7543824a24ad59b7acce25f2e2cfe",
+        "an_real_end": "2025-11-14T19:18:43",
+        "op_plan_end": "2025-11-14T18:33:43",
+        "op_real_end": "2025-11-14T19:03:43",
+        "an_real_start": "2025-11-14T18:48:43",
+        "op_plan_start": "2025-11-14T18:18:43",
+        "op_real_start": "2025-11-14T18:33:43"
+      },
+      {
+        "id": "03696034-38e3-4606-acba-c404faea84c1",
+        "price": 0,
+        "identifier": "f3f5b7f92ded47529bc93ec9e88e58b0",
+        "an_real_end": "2025-11-15T14:54:39",
+        "op_plan_end": "2025-11-15T14:09:39",
+        "op_real_end": "2025-11-15T14:09:39",
+        "an_real_start": "2025-11-15T14:39:39",
+        "op_plan_start": "2025-11-15T13:54:39",
+        "op_real_start": "2025-11-15T14:24:39"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "8c407c18-dd05-459a-8ec4-caa642cddfb6",
+    "room": {
+      "identifier": "ORT14"
+    },
+    "operations": [
+      {
+        "id": "f40c12a2-fac1-4ee1-a617-ebb6c0aad8d9",
+        "price": 0,
+        "identifier": "2068c9bea55c402dbd9e46ee6fec485b",
+        "an_real_end": "2025-11-01T23:07:41",
+        "op_plan_end": "2025-11-01T22:52:41",
+        "op_real_end": "2025-11-01T22:37:41",
+        "an_real_start": "2025-11-01T23:07:41",
+        "op_plan_start": "2025-11-01T22:07:41",
+        "op_real_start": "2025-11-01T22:37:41"
+      },
+      {
+        "id": "13d73920-9acb-4775-9d91-1b3348d9513a",
+        "price": 0,
+        "identifier": "d7ae8785d8ea499b88aa18e8c39e930a",
+        "an_real_end": "2025-11-02T08:52:09",
+        "op_plan_end": "2025-11-02T08:22:09",
+        "op_real_end": "2025-11-02T08:37:09",
+        "an_real_start": "2025-11-02T09:07:09",
+        "op_plan_start": "2025-11-02T07:22:09",
+        "op_real_start": "2025-11-02T08:37:09"
+      },
+      {
+        "id": "9cb54a22-ce1d-4a33-9d57-a34c9bbf576f",
+        "price": 0,
+        "identifier": "b184f911589e4ad3a23981f21e744108",
+        "an_real_end": "2025-11-03T06:33:05",
+        "op_plan_end": "2025-11-03T06:03:05",
+        "op_real_end": "2025-11-03T06:33:05",
+        "an_real_start": "2025-11-03T06:33:05",
+        "op_plan_start": "2025-11-03T05:48:05",
+        "op_real_start": "2025-11-03T06:18:05"
+      },
+      {
+        "id": "7a4b4103-ed57-4067-acf2-c7cd1e707351",
+        "price": 0,
+        "identifier": "a0357c3189cc49b0a7b7da87e9e3446a",
+        "an_real_end": "2025-11-04T13:12:11",
+        "op_plan_end": "2025-11-04T13:57:11",
+        "op_real_end": "2025-11-04T13:27:11",
+        "an_real_start": "2025-11-04T13:27:11",
+        "op_plan_start": "2025-11-04T12:57:11",
+        "op_real_start": "2025-11-04T13:42:11"
+      },
+      {
+        "id": "bb413205-577d-478c-9d0d-38cb720aba4f",
+        "price": 0,
+        "identifier": "3b2798d6dada4b9bb8c98b9db311cfda",
+        "an_real_end": "2025-11-07T07:53:48",
+        "op_plan_end": "2025-11-07T07:08:48",
+        "op_real_end": "2025-11-07T07:08:48",
+        "an_real_start": "2025-11-07T07:38:48",
+        "op_plan_start": "2025-11-07T06:38:48",
+        "op_real_start": "2025-11-07T07:23:48"
+      },
+      {
+        "id": "591f1d98-0c70-4500-a53a-2f1b4f00e0ff",
+        "price": 0,
+        "identifier": "a8d835002eb7458db4c039f19bb46e7b",
+        "an_real_end": "2025-11-08T15:25:02",
+        "op_plan_end": "2025-11-08T14:40:02",
+        "op_real_end": "2025-11-08T14:40:02",
+        "an_real_start": "2025-11-08T15:25:02",
+        "op_plan_start": "2025-11-08T14:10:02",
+        "op_real_start": "2025-11-08T14:55:02"
+      },
+      {
+        "id": "ac07caa3-cfa7-4fb7-bd19-28b5cf951edf",
+        "price": 0,
+        "identifier": "e7fb739c821443b0b5e75d0401d4c062",
+        "an_real_end": "2025-11-09T19:18:30",
+        "op_plan_end": "2025-11-09T19:18:30",
+        "op_real_end": "2025-11-09T18:48:30",
+        "an_real_start": "2025-11-09T19:18:30",
+        "op_plan_start": "2025-11-09T18:18:30",
+        "op_real_start": "2025-11-09T19:18:30"
+      },
+      {
+        "id": "637c5227-18d5-4f97-8925-431c0620de60",
+        "price": 0,
+        "identifier": "e816de7be80c4d1c8b3c90cf85150b45",
+        "an_real_end": "2025-11-10T12:17:12",
+        "op_plan_end": "2025-11-10T12:17:12",
+        "op_real_end": "2025-11-10T13:02:12",
+        "an_real_start": "2025-11-10T13:02:12",
+        "op_plan_start": "2025-11-10T11:47:12",
+        "op_real_start": "2025-11-10T12:17:12"
+      },
+      {
+        "id": "e7d315c3-092e-410c-b06b-81d208b2b9ac",
+        "price": 0,
+        "identifier": "cf0a3b3fc5a94afea905ff1b62ddb6da",
+        "an_real_end": "2025-11-10T20:40:47",
+        "op_plan_end": "2025-11-10T20:55:47",
+        "op_real_end": "2025-11-10T21:10:47",
+        "an_real_start": "2025-11-10T20:55:47",
+        "op_plan_start": "2025-11-10T20:10:47",
+        "op_real_start": "2025-11-10T20:40:47"
+      },
+      {
+        "id": "ca4fe300-a432-4186-90ff-3784b6217874",
+        "price": 0,
+        "identifier": "9fa09fdb11234eda9df6bd5417ff0c30",
+        "an_real_end": "2025-11-11T06:55:57",
+        "op_plan_end": "2025-11-11T06:40:57",
+        "op_real_end": "2025-11-11T06:25:57",
+        "an_real_start": "2025-11-11T06:40:57",
+        "op_plan_start": "2025-11-11T05:40:57",
+        "op_real_start": "2025-11-11T07:10:57"
+      },
+      {
+        "id": "ca1bf8fd-2b6a-4790-974a-6a17c8ef2806",
+        "price": 0,
+        "identifier": "1577dc169d7947beb58c0afee09fb2d3",
+        "an_real_end": "2025-11-11T07:47:11",
+        "op_plan_end": "2025-11-11T08:02:11",
+        "op_real_end": "2025-11-11T07:32:11",
+        "an_real_start": "2025-11-11T08:17:11",
+        "op_plan_start": "2025-11-11T07:17:11",
+        "op_real_start": "2025-11-11T07:32:11"
+      },
+      {
+        "id": "663b5974-8431-40c9-87a8-0321e7249c09",
+        "price": 0,
+        "identifier": "b33378e7f47f4e8b9246f87aefcaf42a",
+        "an_real_end": "2025-11-12T18:44:03",
+        "op_plan_end": "2025-11-12T17:44:03",
+        "op_real_end": "2025-11-12T18:29:03",
+        "an_real_start": "2025-11-12T18:44:03",
+        "op_plan_start": "2025-11-12T17:14:03",
+        "op_real_start": "2025-11-12T18:29:03"
+      },
+      {
+        "id": "1e540956-0771-41bb-baf9-7fca84032fb8",
+        "price": 0,
+        "identifier": "be576844fa04484cad2759c1e92447ac",
+        "an_real_end": "2025-11-13T04:20:45",
+        "op_plan_end": "2025-11-13T04:20:45",
+        "op_real_end": "2025-11-13T04:35:45",
+        "an_real_start": "2025-11-13T05:05:45",
+        "op_plan_start": "2025-11-13T04:05:45",
+        "op_real_start": "2025-11-13T05:05:45"
+      },
+      {
+        "id": "141a6392-bfa2-487d-9c09-6937c2859281",
+        "price": 0,
+        "identifier": "f40c1ab7300c4a27be55c98497179b70",
+        "an_real_end": "2025-11-13T16:36:04",
+        "op_plan_end": "2025-11-13T16:36:04",
+        "op_real_end": "2025-11-13T16:36:04",
+        "an_real_start": "2025-11-13T16:51:04",
+        "op_plan_start": "2025-11-13T16:21:04",
+        "op_real_start": "2025-11-13T17:06:04"
+      }
+    ],
+    "in_use": false
+  },
+  {
+    "id": "5c33f895-e187-4615-9d1e-adde52ccc38b",
+    "room": {
+      "identifier": "ORT15"
+    },
+    "operations": [
+      {
+        "id": "1483b491-b95e-4319-bc55-9ef8862d2b11",
+        "price": 0,
+        "identifier": "7ee5aac5b9284dc9831e6bf073efe8bd",
+        "an_real_end": "2025-11-01T23:08:56",
+        "op_plan_end": "2025-11-01T22:53:56",
+        "op_real_end": "2025-11-01T23:23:56",
+        "an_real_start": "2025-11-01T22:53:56",
+        "op_plan_start": "2025-11-01T22:38:56",
+        "op_real_start": "2025-11-01T23:23:56"
+      },
+      {
+        "id": "50d1329a-0389-4024-a3af-296af8515f49",
+        "price": 0,
+        "identifier": "ea7620d26c72434a89154f6abc8a235d",
+        "an_real_end": "2025-11-03T02:31:39",
+        "op_plan_end": "2025-11-03T02:16:39",
+        "op_real_end": "2025-11-03T02:16:39",
+        "an_real_start": "2025-11-03T02:46:39",
+        "op_plan_start": "2025-11-03T01:16:39",
+        "op_real_start": "2025-11-03T02:16:39"
+      },
+      {
+        "id": "eed636df-d95c-44fe-9c14-fe02188d847b",
+        "price": 0,
+        "identifier": "4b13ca18e02f41489d052fb92caa89a9",
+        "an_real_end": "2025-11-07T02:51:24",
+        "op_plan_end": "2025-11-07T02:21:24",
+        "op_real_end": "2025-11-07T02:36:24",
+        "an_real_start": "2025-11-07T02:51:24",
+        "op_plan_start": "2025-11-07T01:21:24",
+        "op_real_start": "2025-11-07T02:36:24"
+      },
+      {
+        "id": "52550838-da2f-468f-843b-e3b758181939",
+        "price": 0,
+        "identifier": "81192d15c2e444028305d81b28e08274",
+        "an_real_end": "2025-11-10T00:06:02",
+        "op_plan_end": "2025-11-09T23:06:02",
+        "op_real_end": "2025-11-10T00:21:02",
+        "an_real_start": "2025-11-10T00:06:02",
+        "op_plan_start": "2025-11-09T22:21:02",
+        "op_real_start": "2025-11-09T23:51:02"
+      },
+      {
+        "id": "0459cdf1-5d85-4dfa-b25f-cef57789d53a",
+        "price": 0,
+        "identifier": "8255a69c02e3490cb3c2e6af884d6da2",
+        "an_real_end": "2025-11-10T02:09:04",
+        "op_plan_end": "2025-11-10T02:24:04",
+        "op_real_end": "2025-11-10T02:09:04",
+        "an_real_start": "2025-11-10T02:24:04",
+        "op_plan_start": "2025-11-10T01:24:04",
+        "op_real_start": "2025-11-10T01:54:04"
+      },
+      {
+        "id": "132d4506-add9-41a9-91d6-7c274f42dd1a",
+        "price": 0,
+        "identifier": "2d9aa009a6cd4e3aae98faa1a8d30754",
+        "an_real_end": "2025-11-14T05:55:40",
+        "op_plan_end": "2025-11-14T06:40:40",
+        "op_real_end": "2025-11-14T05:55:40",
+        "an_real_start": "2025-11-14T06:10:40",
+        "op_plan_start": "2025-11-14T05:40:40",
+        "op_real_start": "2025-11-14T06:10:40"
+      },
+      {
+        "id": "cbaab76c-a901-4c1f-9242-77b8ffb996dc",
+        "price": 0,
+        "identifier": "ce32911f9c1645e99dc6d137f8affb0a",
+        "an_real_end": "2025-11-14T09:08:46",
+        "op_plan_end": "2025-11-14T08:38:46",
+        "op_real_end": "2025-11-14T09:53:46",
+        "an_real_start": "2025-11-14T09:23:46",
+        "op_plan_start": "2025-11-14T07:53:46",
+        "op_real_start": "2025-11-14T09:23:46"
+      }
+    ],
+    "in_use": false
+  }
+]
