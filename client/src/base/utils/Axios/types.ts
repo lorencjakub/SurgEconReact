@@ -1,3 +1,4 @@
+
 interface IPaginated<T> {
     total: number,
     page: number,
@@ -28,8 +29,8 @@ interface IPersonal {
 interface IRoomRow {
     id: string;
     identifier: string;
-    status: string
     operations: IOperation[];
+    status: string
 }
 
 interface IRoom {

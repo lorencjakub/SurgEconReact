@@ -3,46 +3,36 @@ import {
     Grid,
     AppBar,
     Typography,
-    Box, Button
+    Box,
+    Button
 } from "@mui/material"
 import { useThemeMode } from "../../base/Providers/ThemeMode"
 import { useTheme as useMuiTheme } from "@mui/material/styles"
 import { useNavigate } from "react-router-dom"
-import { useIntl } from "react-intl"
-
 
 const PageHeader: FC<{ pageTitle: string, appBarContent?: ReactNode }> = ({ pageTitle, appBarContent }) => {
     const { themeMode } = useThemeMode()
     const theme = useMuiTheme()
     const navigate = useNavigate()
-    const intl = useIntl()
-    
-    useEffect(() => {
-        document.querySelectorAll("[class*='MuiSwitch-track']")[0].setAttribute("style", `background-color: ${theme.palette.text.disabled}`) 
-    }, [])
 
     return (
         <React.Fragment>
             <AppBar
                 position="absolute"
-                sx={{
-                    maxHeight: 82
-                }}
+                sx={{ maxHeight: 82 }}
             >
                 <Grid
-                    data-testid="containers.layout.header.appbar"
                     container
-                    columns={{ xs: 3 }}
+                    columns={{ xs: 12 }}
                     alignItems="center"
                     rowSpacing={1}
                     sx={{
                         backgroundColor: "primary.dark",
                         p: 2
                     }}
+                    data-testid="containers.layout.header.appbar"
                 >
-                    <Grid
-                        // size={1}
-                    >
+                    <Grid item xs={1}>
                         <Box
                             data-testid="containers.layout.header.appbar.logo"
                             component="img"
@@ -52,7 +42,7 @@ const PageHeader: FC<{ pageTitle: string, appBarContent?: ReactNode }> = ({ page
                                 ml: 2,
                                 mt: 0.5,
                                 height: 42,
-                                width: 42,
+                                width: 42
                             }}
                             style={{
                                 cursor: "pointer",
@@ -63,57 +53,57 @@ const PageHeader: FC<{ pageTitle: string, appBarContent?: ReactNode }> = ({ page
                         />
                     </Grid>
                     <Grid
+                        item
+                        xs={9}
                         container
-                        // size={3}
-                        justifyContent="center"
+                        alignItems="center"
+                        spacing={2}
                     >
-                        <Typography
-                            variant="h4"
-                            color="text.primary"
-                            noWrap
-                            sx={{ ml: 0 }}
-                            onClick={() => navigate("/")}
-                            style={{
-                                cursor: "pointer",
-                                alignText: "center"
-                            }}
-                        >
-                            {pageTitle}
-                        </Typography>
-
-                        <Button
-                            onClick={() => navigate("/metrics")}
-                            variant="contained"
-                            sx={{
-                                backgroundColor: theme.palette.text.primary,
-                                m: 3
-                            }}
-                        >
-                            {intl.formatMessage({ id: "containers.layout.header.appbar.navlink.rooms", defaultMessage: "Metrics" })}
-                        </Button>
+                        <Grid item>
+                            <Typography
+                                variant="h4"
+                                color="text.primary"
+                                noWrap
+                                onClick={() => navigate("/")}
+                                style={{ cursor: "pointer" }}
+                            >
+                                {pageTitle}
+                            </Typography>
+                        </Grid>
+                        <Grid item>
+                            <Button
+                                variant="contained"
+                                onClick={() => navigate("/metrics")}
+                                sx={{
+                                    backgroundColor: "primary.main",
+                                    color: "text.primary",
+                                    '&:hover': {
+                                        backgroundColor: "primary.light"
+                                    }
+                                }}
+                                data-testid="containers.layout.header.metrics-button"
+                            >
+                                Metrics
+                            </Button>
+                        </Grid>
                     </Grid>
                     <Grid
-                        size={2}
+                        item
+                        xs={2}
                         justifyContent="flex-end"
-                        data-testid="containers.layout.header.appbar.tools"
                         alignItems="center"
                         style={{
                             display: 'flex',
                             overflow: 'hidden',
                             flexDirection: "row"
                         }}
+                        data-testid="containers.layout.header.appbar.tools"
                     >
-                        
                         {appBarContent}
                     </Grid>
                 </Grid>
             </AppBar>
-            <div
-                style={{
-                    alignItems: 'center',
-                    minHeight: 82
-                }}
-            />
+            <div style={{ alignItems: 'center', minHeight: 82 }} />
         </React.Fragment>
     )
 }

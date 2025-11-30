@@ -1,8 +1,6 @@
 import axios, { AxiosInstance } from "axios"
 import {
-    IPaginated,
-    IRoomRow,
-    IRoom
+    IPaginated, IRoomRow, IRoom
 } from "./types"
 
 
@@ -19,32 +17,19 @@ const clientConfig = {
     }]
 };
 
-export const apiClient = axios.create(clientConfig);
+export const authorizedClient = axios.create(clientConfig);
 
 
+// const getAllRooms = async (page: number, pageSize: number, sortBy: string, sortOrderDesc: string): Promise<IPaginated<IRoom>> => {
+//     const response = await authorizedClient.get<IPaginated<IRoomRow>>('/operation_rooms', { params: { offset: (page - 1) * pageSize, limit: pageSize, order: `${sortBy}.${sortOrderDesc ? "desc" : "asc"}` } });
 const getAllRooms = async (): Promise<IRoomRow[]> => {
-// const getAllRooms = async (page: number, pageSize: number, sortBy: string, sortOrderDesc: string): Promise<IRoomRow[]> => {
-//     const response = await apiClient.get<IRoomRow[]>('/rooms', { params: { offset: (page - 1) * pageSize, limit: pageSize, order: `${sortBy}.${sortOrderDesc ? "desc" : "asc"}` } });
-    const response = await apiClient.get<IRoomRow[]>('/room_with_operations');
+    const response = await authorizedClient.get<IRoomRow[]>('/operation_rooms');
 
-    var data =  response.data.map(r => {
-        r.status = "available";
-
-        if (!r.operations) return r;
-
-        if (r.operations.some(o => o.an_real_start != null && o.an_real_end == null )) {
-            console.debug(r)
-            r.status = "in_use"
-        }
-
-        return r
-    }) as IRoomRow[];
-    console.debug(data)
-    return data
+    return response.data;
 };
 
 const getRoomById = async (id: string): Promise<IRoom> => {
-    const response = await apiClient.get<IRoom[]>(`/room_with_operations?id=eq.${id}`);
+    const response = await authorizedClient.get<IRoom[]>(`/room_with_operations?id=eq.${id}`);
     return response.data[0];
 };
 

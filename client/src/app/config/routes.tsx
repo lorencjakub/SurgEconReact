@@ -1,8 +1,10 @@
 import React, { lazy } from "react"
+import OperationDetail from "../pages/OperationDetail";
 
 
 const HomePage = lazy(() => import("../pages/Home"))
-const Room = lazy(() => import("../pages/Room"))
+const RoomDetail = lazy(() => import("../pages/RoomDetail"))
+const MetricsPage = lazy(() => import("../pages/Metrics"))
 
 const routes = [
     {
@@ -11,19 +13,15 @@ const routes = [
     },
     {
         path: "/rooms/:guid",
-        element: <Room />,
-    },
-    {
-        path: "/operations",
-        element: <Room />,
+        element: <RoomDetail />,
     },
     {
         path: "/operations/:guid",
-        element: <Room />,
+        element: <OperationDetail />,
     },
     {
         path: "/metrics",
-        element: <Room />,
+        element: <MetricsPage />,
     }
 ]
 

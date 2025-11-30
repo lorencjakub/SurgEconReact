@@ -8,36 +8,23 @@ import {
 import { useNavigate } from 'react-router-dom'
 import { useTheme as useMuiTheme } from "@mui/material/styles"
 import { useIntl } from "react-intl"
-import { useQuery, useQueryClient } from '@tanstack/react-query'
-import backendServices from '../../base/utils/Axios/ApiClient'
-import {IRoomRow} from '../../base/utils/Axios/types'
-import RoomCard from '../components/RoomCard'
+import { useQuery } from '@tanstack/react-query'
 import { AxiosError } from 'axios'
 import Loading from '../../base/components/Loading'
+import backendServices from "../../base/utils/Axios/ApiClient";
+import {IOperation, IRoomRow} from "../../base/utils/Axios/types";
+import RoomCard from "../components/RoomCard";
+import { default as rooms } from "../components/mocks/rooms.json"
 
 
-const HomePage: FC = () => {
+const HomePage: FC<{}> = () => {
     const navigate = useNavigate()
     const theme = useMuiTheme()
     const intl = useIntl()
-    const queryClient = useQueryClient()
 
-    const dashboardRooms = useQuery<IRoomRow[], AxiosError>(
-        {
-            queryKey: ["rooms-list-query"],
-            queryFn: backendServices.getAllRooms,
-            enabled: true,
-            initialData: [],
-            placeholderData: []
-            // meta: {
-            //     onSuccess: (res) => {
-            //         // sessionStorage.setItem("Token", res.token)
-            //         // setPlayerCards(res.cards)
-            //         // navigate(`/rooms/${res.room}`)
-            //     }
-            // }
-        }, queryClient
-    )
+    const randomBool = (): boolean => {
+        return Math.random() < 0.4;
+    }
 
     return (
         <Paper
@@ -67,49 +54,42 @@ const HomePage: FC = () => {
                 alignItems="center"
                 sx={{
                     display: 'flex',
-                    overflow: "auto",
-                    height: "100%"
+                    overflow: "auto"
                 }}
             >
                 <Grid
                     data-testid="pages.homepage.title"
-                    container
-                    direction={"row"}
-                    sx={{
-                        justifyContent: "center",
-                        height: "100vh"
+                    item
+                    style={{
+                        display: "flex",
+                        justifyContent: "center"
                     }}
                 >
                     <Typography
                         variant="h6"
                         color="text.primary"
                     >
-                        {intl.formatMessage({ id: "pages.homepage.title", defaultMessage: "Real-time usage of operations rooms" })}
+                        {intl.formatMessage({ id: "pages.homepage.title", defaultMessage: "Welcome!" })}
                     </Typography>
-
-                    <Grid
-                        container
-                        spacing={5}
-                        direction={"row"}
-                        data-testid="pages.homepage.about"
-                        sx={{
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}
-                    >
-                        {
-                            dashboardRooms.data?.length == 0
-                                ?
-                                <Typography
-                                    variant="h6"
-                                    color="text.primary"
-                                >
-                                    {intl.formatMessage({ id: "pages.homepage.title", defaultMessage: "Welcome!" })}
-                                </Typography>
-                                :
-                                dashboardRooms.data?.map(r => <RoomCard {...r ?? {}} onClick={(id: string) => navigate(`/rooms/${id}`)} key={r?.id} />)
-                        }
-                    </Grid>
+                </Grid>
+                <Grid
+                    data-testid="pages.homepage.about"
+                    container
+                    justifyContent="center"
+                >
+                    {rooms.map(r => {
+                        return (
+                            <RoomCard
+                                id={r.id}
+                                identifier={r.room.identifier}
+                                status={randomBool() ? "available" : randomBool() ? "finishing" : "in_use"}
+                                onClick={(id: string) => navigate(`rooms/${id}`)}
+                                key={r.id}
+                                nextOperation={[...r.operations].sort((a, b) =>
+                                    new Date(b.op_plan_start).getTime() - new Date(a.op_plan_start).getTime()
+                                )[0]}
+                            />
+                    )})}
                 </Grid>
             </Grid>
         </Paper>

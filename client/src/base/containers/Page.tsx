@@ -18,7 +18,6 @@ import PageFooter from '../../app/components/PageFooter'
 import { useTheme as useMuiTheme } from '@mui/material/styles'
 import { useLocale } from '../Providers/Locales'
 import Loading from '../components/Loading'
-import Scrollbar from "../components/CustomScrollbar"
 
 
 const NotFoundPage = lazy(() => import("../../app/pages/NotFound"))
@@ -30,36 +29,24 @@ const Page: FC<{}> = () => {
     const locales = allLocales || []
 
     return (
-        <div
+        <Grid
+            container
+            direction="column"
+            wrap="nowrap"
             data-testid="containers.layout"
-            style={{
-            display: 'flex',
-            flexDirection: "column", 
-            margin: 30,
-            height: "calc(100vh - 60px)"
+            sx={{
+                minHeight: '100vh',
+                width: '100vw',
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                overflow: 'hidden'
             }}
         >
             <Suspense fallback={<Loading />}>
-                <Grid
-                    data-testid="containers.layout.header.container"
-                    container
-                    spacing={1}
-                    justifyContent="center"
-                    alignItems="center"
-                    direction="row"
-                    style={{
-                        display: 'flex',
-                        overflow: 'hidden',
-                        marginLeft: 10,
-                        marginRight: 10,
-                        marginTop: 20,
-                        maxWidth: "calc(100% - 20px)"
-                    }}
-                    sx={{
-                        backgroundColor: "primary",
-                        color: "text.primary"
-                    }}
-                >
+
+                {/* Header */}
+                <Grid item>
                     <PageHeader
                         pageTitle="SurgEcon"
                         appBarContent={
@@ -106,55 +93,31 @@ const Page: FC<{}> = () => {
                         }
                     />
                 </Grid>
-                <Scrollbar>
-                    <Grid
-                        data-testid="containers.layout.content.container"
-                        container
-                        spacing={1}
-                        justifyContent="center"
-                        alignItems="center"
-                        direction="row"
-                        style={{
-                            top: "146px",
-                            height: 'calc(100% - 146px)',
-                            display: 'flex',
-                            margin: 10,
-                            maxWidth: "calc(100% - 20px)"
-                        }}
-                        sx={{
-                            backgroundColor: "primary",
-                            overflow:"scrollbar"
-                        }}
-                    >
-                        <Suspense fallback={<Loading/>}>
-                            {useRoutes([...routes]) || <NotFoundPage />}
-                        </Suspense>
-                    </Grid>
-                </Scrollbar>
+
+                {/* Main Content */}
                 <Grid
-                    data-testid="containers.layout.footer.container"
-                    container
-                    spacing={1}
-                    justifyContent="center"
-                    alignItems="center"
-                    direction="row"
-                    style={{
-                        display: 'flex',
-                        overflow: 'hidden',
-                        marginLeft: 10,
-                        marginRight: 10,
-                        marginBottom: 20,
-                        maxWidth: "calc(100% - 20px)"
-                    }}
+                    item
+                    xs
+                    data-testid="containers.layout.content.container"
                     sx={{
-                        backgroundColor: "primary",
-                        color: "text.primary"
+                        overflow: 'auto',
+                        height: 'calc(100vh - 146px)', // 100vh - (header + footer)
+                        mt: '82px',
+                        mb: '64px'
                     }}
                 >
+                    <Suspense fallback={<Loading/>}>
+                        {useRoutes([...routes]) || <NotFoundPage />}
+                    </Suspense>
+                </Grid>
+
+                {/* Footer */}
+                <Grid item>
                     <PageFooter />
                 </Grid>
+
             </Suspense>
-        </div>
+        </Grid>
     )
 }
 

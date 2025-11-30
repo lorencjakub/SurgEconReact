@@ -7,7 +7,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 const Provider: FC<{ children: ReactNode }> = ({ children }) => {
   const { enqueueSnackbar } = useSnackbar()
-  const { parseErrorMessage } = useErrors()
+  const { parseErrorMessage = (e: string) => "" } = useErrors()
 
   const queryCache = new QueryCache({
     onError: (error, query) => {
@@ -16,12 +16,10 @@ const Provider: FC<{ children: ReactNode }> = ({ children }) => {
       if (query.meta?.onError) {
         (query.meta?.onError as (err: unknown) => void)(err)
       } else {
-        enqueueSnackbar(
-            parseErrorMessage && parseErrorMessage(err),
-            {
-              variant: "error"
-            }
-        )
+        enqueueSnackbar({
+          message: parseErrorMessage(err.response?.data?.message || err.message),
+          variant: "error"
+        })
       }
     },
     onSuccess: (data, query) => {
@@ -35,13 +33,13 @@ const Provider: FC<{ children: ReactNode }> = ({ children }) => {
 
   const mutationCache = new MutationCache({
     onError: (error, variables, onMutateResult, mutation) => {
+      const err: any = { ...error };
+
       console.debug(error, variables, onMutateResult, mutation)
-      enqueueSnackbar(
-          parseErrorMessage && parseErrorMessage(error.message),
-          {
-            variant: "error"
-          }
-      )
+      enqueueSnackbar({
+        message: parseErrorMessage(err.response?.data?.message || err.message),
+        variant: "error"
+      })
     }
   });
 
